@@ -126,26 +126,37 @@ def request_article_pageviews(article_title: str,
         return None
 
 
-def save_json(data: dict, filename: str) -> None:
+def save_dict_to_json(data: dict, 
+                      save_name: str,
+                      filepath:str) -> None:
     """
-    Saves data as a JSON file, ensuring that the directory exists.
+    Saves data as a JSON file, ensuring that the
+    directory exists.
 
     Parameters
     ----------
     data : dict
         The data to save in JSON format.
     filename : str
-        The path (including the filename) wherethe JSON file will be saved.
+        The path (including the filename) where the JSON file will be saved.
     """
-    # Ensure the directory exists
-    directory = os.path.dirname(filename)
-    if not os.path.exists(directory):
-        os.makedirs(directory)
+    # ensure filepath exists
+    if not os.path.exists(filepath):
+        os.makedirs(filepath)
     
-    # Save the JSON file
-    with open(filename, 'w') as f:
+    # if filepath does not exist, save in current directory
+    if not filepath:
+        filepath = os.getcwd()
+    
+    # ensure file extension is .json
+    if not save_name.endswith('.json'):
+        save_name = save_name + '.json'
+    
+    # save the file
+    with open(os.path.join(filepath, save_name), 'w') as f:
         json.dump(data, f, indent=4)
-    print(f"Data saved to {filename}")
+    print(f"Data saved to {save_name}")
+
 
 
 def combine_pageviews(mobile_web_views: dict,
