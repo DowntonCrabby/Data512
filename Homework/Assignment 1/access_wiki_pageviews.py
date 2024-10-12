@@ -365,46 +365,42 @@ def save_json(data: dict, filename: str) -> None:
 
 def load_pageview_dict_to_dataframe(pageview_data: dict) -> pd.DataFrame:
     """
-    Converts pageview data from a dictionary into a pandas DataFrame.
-
+    Converts a dictionary of pageview data into a pandas DataFrame.
+    
     Parameters
     ----------
     pageview_data : dict
-        A dictionary where the keys are article names and 
-        the values are lists of dictionaries,each containing 
-        'timestamp' and 'views'.
-
+        The dictionary containing pageview data, where each key is an
+        article title and each value is a list of dictionaries representing
+        monthly pageviews.
+    
     Returns
     -------
     pd.DataFrame
-        A DataFrame with columns:
-        - 'article': The title of the article.
-        - 'timestamp': The timestamp of the pageview
-          data in YYYYMMDDHH format.
-        - 'views': The number of views for that timestamp.
-
+        A DataFrame with columns such as 'article', 'timestamp',
+        'views', etc.
     """
     # Initialize an empty list to collect data rows
     data_rows = []
 
-    # Loop through the pageview_data dictionary
+    # Iterate through the pageview data dictionary
     for article, pageviews in pageview_data.items():
         for record in pageviews:
-            # Each record contains 'timestamp' and 'views', 
-            # so we extract those and add the article name
+            # Extract relevant fields and add the article title to each row
             data_rows.append({
                 'article': article,
-                'timestamp': record['timestamp'],
-                'views': record['views']
+                'timestamp': record.get('timestamp'),
+                'views': record.get('views'),
+                'access': record.get('access'),
+                'agent': record.get('agent')
             })
 
     # Create a DataFrame from the list of data rows
     df = pd.DataFrame(data_rows)
 
-    # Convert 'timestamp' to datetime format for easier manipulation and analysis
+    # Convert timestamp to datetime format for easier manipulation
     df['timestamp'] = pd.to_datetime(df['timestamp'], format='%Y%m%d%H')
 
-    # Return the DataFrame
     return df
 
 
@@ -413,9 +409,10 @@ def load_pageview_json_to_dataframe(filepath: str) -> pd.DataFrame:
     Loads pageview data from a JSON file and converts it to a pandas DataFrame.
 
     This function reads a JSON file containing pageview data, where the keys
-    are article titles and the values are lists of dictionaries with 'timestamp' 
-    and 'views'. The data is transformed into a DataFrame where each row 
-    represents a unique article and its associated timestamp and views.
+    are article titles and the values are lists of dictionaries. Each dictionary
+    contains details such as 'timestamp', 'views', 'access', and 'agent'.
+    The data is transformed into a DataFrame where each row 
+    represents a unique article, its associated timestamp, views, and other metadata.
 
     Parameters
     ----------
@@ -429,21 +426,33 @@ def load_pageview_json_to_dataframe(filepath: str) -> pd.DataFrame:
         - 'article': The title of the article.
         - 'timestamp': The timestamp corresponding to the pageview count.
         - 'views': The number of pageviews for the given timestamp.
+        - 'access': The access type (e.g., desktop, mobile).
+        - 'agent': The agent type (e.g., user).
     """
     
     # Open and load the JSON file
     with open(filepath, 'r') as f:
         data = json.load(f)
 
-    # Convert the dictionary to a DataFrame:
-    # - 'orient="index"' means that the keys of the dictionary (article titles) become rows
-    # - 'stack()' reshapes the DataFrame by stacking the data into a single column
-    # - 'apply(pd.Series)' converts each entry into a proper Series format
-    # - 'reset_index()' reshapes the multi-level index into columns
-    df = pd.DataFrame.from_dict(data, orient='index').stack().apply(pd.Series).reset_index()
+    # Initialize an empty list to collect data rows
+    data_rows = []
 
-    # Rename the columns for clarity
-    df.columns = ['article', 'timestamp', 'views']
+    # Loop through the loaded JSON data
+    for article, pageviews in data.items():
+        for record in pageviews:
+            # Append each record (timestamp, views, etc.) to the data_rows list
+            data_rows.append({
+                'article': article,
+                'timestamp': record.get('timestamp'),
+                'views': record.get('views'),
+                'access': record.get('access'),
+                'agent': record.get('agent')
+            })
 
-    # Return the DataFrame for further processing or analysis
+    # Create a DataFrame from the list of data rows
+    df = pd.DataFrame(data_rows)
+
+    # Convert timestamp to datetime for easier manipulation and analysis
+    df['timestamp'] = pd.to_datetime(df['timestamp'], format='%Y%m%d%H')
+
     return df
