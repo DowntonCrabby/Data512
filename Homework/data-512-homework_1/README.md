@@ -21,7 +21,13 @@ The following API was used to gather data for this project:
 
 This API provides access to pageview statistics for desktop, mobile-web, and mobile-app traffic on Wikipedia articles. The data is retrieved at monthly granularity.
 
-## Data Files
+## Data Files and Code
+
+### Python Module
+- `access_wiki_pageviews.py`: This script contains functions to retrieve monthly pageview data from the Wikimedia API, process it, and save it in JSON format.
+
+### Jupyter Notebook
+- `rare_diseases_pageviews_demo.ipynb`: This notebook demonstrates how to use the `access_wiki_pageviews.py` script to acquire pageview data from the Wikimedia API, as well as how to clean, process, and visualize the data.
 
 ### Input Files
 - `rare-disease_cleaned_AUG2024.csv` : contains information on rare diseases, and has the columns 
@@ -36,6 +42,7 @@ This API provides access to pageview statistics for desktop, mobile-web, and mob
 
 
 ## Data Schema
+All intermediate json files have the same type of data schema, which is as follows:
 - `{project}` is `en.wikipedia.org` (English Wikipedia)
 - `{article}` is the URL-encoded title of the Wikipedia article
 - `{granularity}` is `monthly`
