@@ -126,37 +126,39 @@ def request_article_pageviews(article_title: str,
         return None
 
 
-def save_dict_to_json(data: dict, 
+def save_dict_to_json(input_dict: dict, 
                       save_name: str,
-                      filepath:str) -> None:
+                      filepath: str = None) -> None:
     """
-    Saves data as a JSON file, ensuring that the
-    directory exists.
+    Saves a dictionary as a JSON file.
 
     Parameters
     ----------
-    data : dict
-        The data to save in JSON format.
-    filename : str
-        The path (including the filename) where the JSON file will be saved.
+    input_dict : dict
+        The dictionary to save as a JSON file.
+    save_name : str
+        The name of the file to save.
+    filepath : str, optional
+        Location to save to, by default None (current directory).
     """
+    
+    # if filepath is not provided, set to current directory
+    if filepath is None:
+        filepath = os.getcwd()
+    
     # ensure filepath exists
     if not os.path.exists(filepath):
         os.makedirs(filepath)
-    
-    # if filepath does not exist, save in current directory
-    if not filepath:
-        filepath = os.getcwd()
-    
+
     # ensure file extension is .json
     if not save_name.endswith('.json'):
         save_name = save_name + '.json'
     
     # save the file
     with open(os.path.join(filepath, save_name), 'w') as f:
-        json.dump(data, f, indent=4)
-    print(f"Data saved to {save_name}")
-
+        json.dump(input_dict, f, indent=4)
+    
+    print(f"Data saved to {os.path.join(filepath, save_name)}")
 
 
 def combine_pageviews(mobile_web_views: dict,
@@ -276,9 +278,12 @@ def generate_pageview_datasets(articles_list: list,
     start_date_str = start_date[:DATE_SLICE]
     end_date_str = end_date[:DATE_SLICE]
 
-    save_json(desktop_data, f'rare-disease_monthly_desktop_{start_date_str}-{end_date_str}.json')
-    save_json(mobile_data, f'rare-disease_monthly_mobile_{start_date_str}-{end_date_str}.json')
-    save_json(cumulative_data, f'rare-disease_monthly_cumulative_{start_date_str}-{end_date_str}.json')
+    save_dict_to_json(desktop_data, 
+                      f'rare-disease_monthly_desktop_{start_date_str}-{end_date_str}.json')
+    save_dict_to_json(mobile_data,
+                      f'rare-disease_monthly_mobile_{start_date_str}-{end_date_str}.json')
+    save_dict_to_json(cumulative_data,
+                      f'rare-disease_monthly_cumulative_{start_date_str}-{end_date_str}.json')
 
     return desktop_data, mobile_data, cumulative_data
 
@@ -356,3 +361,89 @@ def save_json(data: dict, filename: str) -> None:
     with open(filename, 'w') as f:
         json.dump(data, f, indent=4)
     print(f"Data saved to {filename}")
+
+
+def load_pageview_dict_to_dataframe(pageview_data: dict) -> pd.DataFrame:
+    """
+    Converts pageview data from a dictionary into a pandas DataFrame.
+
+    Parameters
+    ----------
+    pageview_data : dict
+        A dictionary where the keys are article names and 
+        the values are lists of dictionaries,each containing 
+        'timestamp' and 'views'.
+
+    Returns
+    -------
+    pd.DataFrame
+        A DataFrame with columns:
+        - 'article': The title of the article.
+        - 'timestamp': The timestamp of the pageview
+          data in YYYYMMDDHH format.
+        - 'views': The number of views for that timestamp.
+
+    """
+    # Initialize an empty list to collect data rows
+    data_rows = []
+
+    # Loop through the pageview_data dictionary
+    for article, pageviews in pageview_data.items():
+        for record in pageviews:
+            # Each record contains 'timestamp' and 'views', 
+            # so we extract those and add the article name
+            data_rows.append({
+                'article': article,
+                'timestamp': record['timestamp'],
+                'views': record['views']
+            })
+
+    # Create a DataFrame from the list of data rows
+    df = pd.DataFrame(data_rows)
+
+    # Convert 'timestamp' to datetime format for easier manipulation and analysis
+    df['timestamp'] = pd.to_datetime(df['timestamp'], format='%Y%m%d%H')
+
+    # Return the DataFrame
+    return df
+
+
+def load_pageview_json_to_dataframe(filepath: str) -> pd.DataFrame:
+    """
+    Loads pageview data from a JSON file and converts it to a pandas DataFrame.
+
+    This function reads a JSON file containing pageview data, where the keys
+    are article titles and the values are lists of dictionaries with 'timestamp' 
+    and 'views'. The data is transformed into a DataFrame where each row 
+    represents a unique article and its associated timestamp and views.
+
+    Parameters
+    ----------
+    filepath : str
+        The path to the JSON file containing the pageview data.
+
+    Returns
+    -------
+    pd.DataFrame
+        A pandas DataFrame with the following columns:
+        - 'article': The title of the article.
+        - 'timestamp': The timestamp corresponding to the pageview count.
+        - 'views': The number of pageviews for the given timestamp.
+    """
+    
+    # Open and load the JSON file
+    with open(filepath, 'r') as f:
+        data = json.load(f)
+
+    # Convert the dictionary to a DataFrame:
+    # - 'orient="index"' means that the keys of the dictionary (article titles) become rows
+    # - 'stack()' reshapes the DataFrame by stacking the data into a single column
+    # - 'apply(pd.Series)' converts each entry into a proper Series format
+    # - 'reset_index()' reshapes the multi-level index into columns
+    df = pd.DataFrame.from_dict(data, orient='index').stack().apply(pd.Series).reset_index()
+
+    # Rename the columns for clarity
+    df.columns = ['article', 'timestamp', 'views']
+
+    # Return the DataFrame for further processing or analysis
+    return df
