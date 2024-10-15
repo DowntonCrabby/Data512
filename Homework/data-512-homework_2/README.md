@@ -142,3 +142,22 @@ This file stores metadata about Wikipedia pages related to politicians, such as 
    - Given the large population sizes of some countries, the calculated proportions of articles per capita or high-quality articles per capita will likely result in very small numbers. It’s important to carefully represent and interpret these proportions to avoid misinterpretation.
 
 
+## Research Implications
+
+Before beginning this project, I expected to find a bias in the dataset that would be slanted towards "Western" countries—those in North America, Western Europe, etc.—having more "high quality" articles than those in the Global South. I assumed this because I suspected that the evaluations the ORES algorithm was trained on might be disproportionately influenced by Western countries, potentially leading to biased assessments of article quality. 
+
+Additionally, access to resources like reliable internet, educational tools, and research databases in Western countries might further contribute to this bias. These resources enable more active Wikipedia editing and fact-checking, allowing for higher-quality contributions. In contrast, regions with fewer resources may struggle to maintain the same level of editorial rigor, resulting in fewer and lower-quality articles.
+
+### Reflection on Findings
+One interesting and somewhat surprising finding was the high article coverage per capita for small countries like Antigua and Barbuda, Luxembourg, and the Maldives. These countries, despite their small population sizes, had relatively high numbers of articles about their politicians. However, many of these countries had little or no high-quality articles, reflecting a potential lack of thorough editing or attention to quality improvement. 
+
+On the other hand, larger countries like China and India had very low articles per capita, suggesting that their politicians are significantly underrepresented on Wikipedia relative to their population sizes. This imbalance points to the potential biases in Wikipedia's coverage, particularly in countries with less active editor communities.
+
+### Resource Access and Bias
+In addition to algorithmic bias, access to resources plays a significant role in shaping Wikipedia’s content. Countries with better internet infrastructure, educational resources, and active Wikipedia communities are more likely to have both a higher quantity and quality of articles. This phenomenon is reflected in the results, where countries in Europe, particularly Western and Southern Europe, show higher numbers of high-quality articles. In contrast, regions with less access to resources, like much of Africa and Asia, have fewer high-quality articles, further emphasizing the global digital divide.
+
+
+### Broader Implications for Society
+The findings from this analysis reinforce the idea that the internet does not provide equal access to information globally. Wealthier regions, particularly in Western countries, have a stronger presence on platforms like Wikipedia, while countries in the Global South are often underrepresented. This has broad implications for how knowledge is disseminated and accessed around the world and highlights the need for efforts to close the digital divide.
+
+
