@@ -26,7 +26,7 @@ The datasets used in this project come from several different sources:
 
 - **ORES Scores**: Article quality predictions were generated using the ORES (Objective Revision Evaluation Service) machine learning tool provided by the Wikimedia Foundation. The ORES API is transitioning to the LiftWing ML Service infrastructure. More information about ORES can be found in the official [ORES API documentation](https://www.mediawiki.org/wiki/ORES). ORES is an open tool, and data generated through it can be used under the Creative Commons Attribution-ShareAlike (CC-BY-SA) license.
 
-All code examples provided for this assignment were developed by Dr. David W. McDonald for use in the DATA 512 course in the UW MS Data Science degree program. These examples are licensed under the Creative Commons CC-BY license.
+All code examples provided for this assignment were developed by Dr. David W. McDonald for use in the DATA 512 course in the UW MS Data Science degree program. These examples are licensed under the Creative Commons CC-BY license. These coding examples can be found in the Provided Resources folder, and were used to help develop the functions found in the wiki_request.py file.
 
 ---
 
