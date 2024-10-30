@@ -17,10 +17,6 @@ import json
 import os
 from typing import Optional, Dict, Any, TextIO
 
-import json
-import os
-from typing import Optional, Dict, Any, TextIO
-
 class Reader:
     """
     A streaming reader compatible with GeoJSON data formats for wildfire datasets provided by the USGS.
