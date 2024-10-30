@@ -13,310 +13,253 @@
 #   Copyright by Author. All rights reserved. Not for reuse without express permissions.
 #
 
-import os, json
+import json
+import os
+from typing import Optional, Dict, Any, TextIO
 
+import json
+import os
+from typing import Optional, Dict, Any, TextIO
 
-class Reader(object):
-    '''
+class Reader:
+    """
+    A streaming reader compatible with GeoJSON data formats for wildfire datasets provided by the USGS.
     
-    This class implements a simple streaming reader that is compatible with the GeoJSON data formats for the
-    wildfire datasets provided by the USGS. One example of that data can be found at:
+    Public Methods:
+        - open(filename: str) -> None: Opens a GeoJSON file for reading.
+        - header() -> Dict[str, Any]: Returns metadata from the GeoJSON file as a dictionary.
+        - next() -> Optional[Dict[str, Any]]: Reads the next GeoJSON feature as a dictionary.
+        - rewind() -> None: Resets the reader to the beginning of the GeoJSON feature list.
+        - close() -> None: Closes the open GeoJSON file.
     
-    https://www.sciencebase.gov/catalog/item/61aa537dd34eb622f699df81
-    
-    The Reader class provides the public methods:
-        open()    - to open the named GeoJson file
-        header()  - to return the descriptive information for the dataset
-        next()    - to get, one at a time, each GeoJSON feature from the file
-        rewind()  - to return the file to the start of the GeoJSON features
-        close()   - to close the file
-        
-    The class will attempt to maintain consistency of the Reader and will throw exceptions to attempt to prevent
-    some inconsistent operations.
-    
-    A new object can be created and initialized, and have the file opened in one shot
-    
+    Usage:
         reader = Reader("file_to_read.json")
-    
-    This would initialize the reader and open the file, making the file read to read each of the GeoJSON features
-    using something like 'reader.next()'. An alternate idiom would be two lines
-    
-        reader = Reader()
-        reader.open("file_to_read.json")
-    
-    
-    '''
-    def __init__(self, filename=None):
+        feature = reader.next()
+    """
+
+    def __init__(self, filename: Optional[str] = None) -> None:
         super().__init__()
-        self.filename = ""
-        self.filehandle = None
-        self.is_open = False
-        self.header_dict = None
-        self.feature_start_offset = 0
+        self.filename: str = ""
+        self.file_handle: Optional[TextIO] = None
+        self.is_open: bool = False
+        self.header_dict: Optional[Dict[str, Any]] = None
+        self.feature_start_offset: int = 0
         
         if filename:
             self.open(filename)
-        
-        return
 
-
-    #####
-    #   
-    #   PUBLIC METHODS
-    #   
-    #####
-    
-    def open(self, filename=None):
-        '''
-        This opens the named file, reading the file header information and setting up the file to
-        start reading features uing the next() method.
+    def open(self, filename: str) -> None:
+        """
+        Opens a GeoJSON file, reads the header information, and prepares to read features.
         
-        The method takes one parameter a filename or the full path to a file that will be read by the Reader
+        Args:
+            filename (str): Path to the GeoJSON file to open.
         
-        '''
-        # if there's no filename, then there's nothing to open
+        Raises:
+            Exception: If the file is already open or the specified file cannot be found.
+        """
         if not filename:
-            raise Exception("Must supply a filename to 'open()' a file for reading")
+            raise ValueError("Filename must be provided to open a file for reading.")
         
-        # if we're already managing an open file - throw an exception
         if self.is_open:
-            raise Exception(f"Reader is already open, using file '{self.filename}'")
+            raise Exception(f"Reader is already open with file '{self.filename}'.")
 
-        # save that filename incase we need it later
         self.filename = filename
         
-        # try to open that file
         try:
-            f = open(filename,"r")
-            self.filehandle = f
+            self.file_handle = open(filename, "r")
             self.is_open = True
-            self.header_dict = self.__read_geojson_header__(f)
-        except:
-            path = os.getcwd()
-            raise Exception(f"Could not find '{filename}' in directory '{path}'")
-            #raise Exception(f"Could not open file '{filename}'")
-            self.filename = ""
-        return
-        
+            self.header_dict = self.__read_geojson_header__(self.file_handle)
+        except FileNotFoundError:
+            current_path = os.getcwd()
+            raise FileNotFoundError(f"Could not find '{filename}' in directory '{current_path}'.")
     
-    #   
-    #   Returns the file header, read and saved when the file is opened
-    #    
-    def header(self):
-        '''
-        This method returns a python dictionary containing the header information that was read from the 
-        GeoJSON file when it was opened.
-        
-        This method takes no parameters.
-        
-        '''
+    def header(self) -> Dict[str, Any]:
+        """
+        Returns the GeoJSON header information as a dictionary.
+
+        Raises:
+            Exception: If the file is not open.
+        """
         if not self.is_open:
-            raise Exception(f"Must 'open()' a file before getting the file header")
-        return self.header_dict
-    
-    
-    #   
-    #   Read and return the next GeoJSON feature
-    #    
-    def next(self):
-        '''
-        This method reads the next complete geographic 'feature' from the GeoJSON file and returns that
-        as a python dictionary. It reads and returns one complete feature with each call, until there are
-        no more features. When there are no remaining features the method returns an empty value.
+            raise Exception("File must be opened using 'open()' before accessing the header.")
+        return self.header_dict or {}
+
+    def next(self) -> Optional[Dict[str, Any]]:
+        """
+        Reads the next GeoJSON feature as a dictionary.
         
-        This method takes no parameters.
+        Returns:
+            Optional[Dict[str, Any]]: A dictionary representing the next feature, or None if no more features are available.
         
-        '''
+        Raises:
+            Exception: If the file is not open.
+        """
         if not self.is_open:
-            raise Exception(f"Must 'open()' a file before reading GeoJSON features")
-        feature = self.__next_geojson_feature__(self.filehandle)
-        return feature
-    
-    
-    #   
-    #   Reset the file pointer to the start of the features
-    #    
-    def rewind(self):
-        '''
-        This method resets the file handle to the start of the 'feature' list. This method allows
-        the next() method to restart reading features one at a time. 
-                
-        This method takes no parameters.
+            raise Exception("File must be opened using 'open()' before reading features.")
+        return self.__next_geojson_feature__(self.file_handle)
+
+    def rewind(self) -> None:
+        """
+        Resets the file pointer to the beginning of the feature list, allowing `next()` to re-read features.
         
-        '''
-        if self.is_open:
+        Raises:
+            Exception: If the file is not open or if an error occurs in seeking.
+        """
+        if self.is_open and self.file_handle:
             try:
-                # move to the absolute position in the file
-                self.filehandle.seek(self.feature_start_offset,0)
-            except:
-                print("When attempting to rewind() it looks like the file handle is empty. Attempting to close() the file.")
+                self.file_handle.seek(self.feature_start_offset)
+            except IOError:
                 self.close()
-                raise
-        return 
-    
-    
-    #   
-    #   Close the file, reset the object to initial conditions
-    #    
-    def close(self):
-        '''
-        This method will close the open file handle and reset the object to initial conditions.
-        
-        This method takes no parameters.
-        
-        '''
-        if self.is_open:
-            self.filehandle.close()
-            self.filehandle = None
+                raise Exception("Error rewinding the file. The file has been closed.")
+
+    def close(self) -> None:
+        """
+        Closes the GeoJSON file and resets the Reader's state.
+        """
+        if self.is_open and self.file_handle:
+            self.file_handle.close()
+            self.file_handle = None
             self.filename = ""
             self.is_open = False
             self.header_dict = None
             self.feature_start_offset = 0
-        return 
-    
-    
-    #####
-    #   
-    #   NON-PUBLIC (PRIVATE) METHODS
-    #   
-    #####
-    
-    ####
-    #
-    #   This method is called as part of an 'open()' operation. Generally, header fields/keys are the
-    #   first things in the GeoJSON file. This method makes the assumption that all of these header
-    #   fields occur *before* the list of features. This works for the USGS wildfire dataset.
-    #
-    #   However, this may need to be generalized for compatibility with other GeoJSON files. For example, what
-    #   if fields/keys were in sorted order?
-    #
-    def __read_geojson_header__(self, f=None):
-        if not f:
-            return dict()
-        
-        header_dict = None
-        header = None
-        buf = ""
 
-        #print(f"Openend file '{fname}'")
-        i = 0
-        #
-        #   Read small chunks of the file building a buffer, we're looking to find
-        #   a specific part of the GeoJSON file - the list of "features"
-        c = f.read(100)
-        while c and i<1200:
-            #   Add the chunk to the buffer
-            buf = buf+c
-            #   Look to see if what we want is in the current buffer
-            if ('"features":' in buf) or ("'features':" in buf):
-                #print("Buffer is:")
-                #print(buf)
-                #
-                # We need to find the offset of the key in the buffer
-                index = buf.find("'features'")      # find with the single quote
-                if index < 0:     # maybe it's the double quote version
-                    index = buf.find('"features"')  # find with the double quote
-                #
-                # Seek to the start of the file, to read the header as one chunk
-                f.seek(0,0)
-                #print(f"Reading up to: {index}")
-                #
-                # Now, read the header, except the 'features' key that we were looking for
-                header = f.read(index)
-                #print("header is:")
-                #print(header)
-                #
-                # Read the specific 'features' key, we're skipping that, to set the file
-                # pointer to point to the first feature, this sets up for a next() operation
-                c = f.read(len("'features'"))
-                #print(f"Found key: {c}")
-                #
-                # Save the file offset where the features start to support the reset() operation
-                self.feature_start_offset = f.tell()
+    def __read_geojson_header__(self, file: TextIO) -> Dict[str, Any]:
+        """
+        Reads the GeoJSON header from the file, stopping at the start of the features list.
+        
+        Args:
+            file (TextIO): The file handle for the opened GeoJSON file.
+        
+        Returns:
+            Dict[str, Any]: A dictionary of header metadata.
+        """
+        buffer = ""
+        header_data = ""
+        chunk = file.read(100)
+
+        while chunk:
+            buffer += chunk
+            if '"features":' in buffer or "'features':" in buffer:
+                index = buffer.find('"features"') if '"features"' in buffer else buffer.find("'features'")
+                file.seek(0)
+                header_data = file.read(index).strip()
+                file.read(len("'features'"))
+                self.feature_start_offset = file.tell()
                 break
-            #
-            #   If we did not find the key in the buffer, read another chunk
-            c = f.read(100)
-            i += 1
-        if header:
-            # remove any whitespace - JSON encoders sometimes add whitespace
-            header = header.strip(" \t\n\r")
-            # remove the trailing comma - to maintain proper JSON formatting
-            if header.endswith(','):
-                header = header[0:-1]
-            # close the open dictionary of the header
-            header = header + "}"
-            # convert the header to a usable python dictionary
-            header_dict = json.loads(header)
-        return header_dict
-    
-    
-    
-    ####
-    #
-    #   This procedure takes a file handle and attempts to read one dictionary 'feature' item from the file. 
-    #   When successful it returns the python dictionary based on the JSON that was read.
-    #
-    #   In GeoJSON the 'features' list is a list of geographic features, which is just a list of dictionary items.
-    #   The list is of arbitrary length, and is supposed to be composed of a set of 'attributes' and set of
-    #   'geometry' items. The 'attributes' are descriptions of the 'geometry' items. The 'geometry' is a set of
-    #   geographic primitives that can be composed to create a geographic entity of some kind.
-    #
-    #   This code assumes that the feature list is well formed JSON and compliant with the GeoJSON standard.
-    #
-    def __next_geojson_feature__(self, f=None):
-        feat_str = None     # the feature as a JSON dictionary string
-        feat_dict = None    # the feature converted to a dictionary
-        if f:
-            c = f.read(1)
-            while c:
-                if c[0] == '{':
-                    feat_str = self.__recurse_geojson_feature_dict__(f,c)
-                    break
-                c = f.read(1)
-            if feat_str:
-                try:
-                    feat_dict = json.loads(feat_str)
-                except Exception as e:
-                    print("Looks like the feature string has a problem!")
-                    print(feat_str)
-                    raise e
-        return feat_dict
-    
-    
-    ####
-    #
-    #   We use recursion to manage the composition of each JSON feature dictionary. The recursion
-    #   tracks any nested dictionaries. When we exit the recursion we will have read one complete
-    #   JSON dictionary item. This should also correspond to one GeoJSON feature.
-    #
-    def __recurse_geojson_feature_dict__(self, f=None, buf="", depth=0):
-        # there is no way these nested features should have more than a few nested
-        # dictionary levels, if we get this deep in a recursion, there is a problem
+            chunk = file.read(100)
+
+        if header_data.endswith(','):
+            header_data = header_data[:-1]
+        header_data += "}"
+
+        return json.loads(header_data)
+
+    def __next_geojson_feature__(self, file: TextIO) -> Optional[Dict[str, Any]]:
+        """
+        Reads one feature dictionary from the GeoJSON file.
+        
+        Args:
+            file (TextIO): The file handle for the opened GeoJSON file.
+        
+        Returns:
+            Optional[Dict[str, Any]]: The next feature as a dictionary, or None if no features remain.
+        """
+        feature_str = ""
+        while (char := file.read(1)):
+            if char == '{':
+                feature_str = self.__recurse_geojson_feature_dict__(file, char)
+                break
+        
+        return json.loads(feature_str) if feature_str else None
+
+    def __recurse_geojson_feature_dict__(self, file: TextIO, buffer: str, depth: int = 0) -> str:
+        """
+        Recursively constructs a JSON string for a single feature dictionary.
+        
+        Args:
+            file (TextIO): The file handle for the opened GeoJSON file.
+            buffer (str): The current buffer of the JSON string.
+            depth (int): The current recursion depth.
+        
+        Returns:
+            str: The JSON string for a single feature.
+        
+        Raises:
+            Exception: If recursion depth exceeds 10, indicating malformed JSON.
+        """
         if depth > 10:
-            raise Exception("Suspect corrupted GeoJSON 'features' list.")
-        #
-        #
-        obj = buf
-        c = f.read(1)
-        #
-        while c:
-            # the start of a new nested dictionary, recurse
-            if c[0] == '{':
-                obj = obj + self.__recurse_geojson_feature_dict__(f,c,(depth+1))
+            raise Exception("Corrupted GeoJSON 'features' list. Exceeded maximum recursion depth.")
+
+        json_obj = buffer
+        while (char := file.read(1)):
+            if char == '{':
+                json_obj += self.__recurse_geojson_feature_dict__(file, char, depth + 1)
             else:
-                # its not a nested dictionary, no new recursion just add the character
-                obj = obj + c
-            # closed a dictionary, then return from the recursion
-            if c[0] == '}':
-                return obj
-            c = f.read(1)
-        return obj
-    
-    
+                json_obj += char
+            if char == '}':
+                return json_obj
+        return json_obj
+
 if __name__ == '__main__':
     print("Reader.py is a class with no main()")
 
+
     
+ESTIMATED_NUM_FEATURES = 136000    
+def load_wildfire_features(json_file_path:str, 
+                           max_features=ESTIMATED_NUM_FEATURES):
+    """
+    Load features from a JSON file using the wildfire Reader object and show progress.
     
+    Parameters:
+    - json_file_path (str): Path to the JSON file containing wildfire data.
+    - max_features (int): Maximum number of features to load.
     
+    Returns:
+    - feature_list (list): List of loaded features.
+    """
+    print(f"Attempting to open '{json_file_path}' with wildfire.Reader() object")
+    
+    # Initialize Reader
+    wfreader = Reader(json_file_path)
+    print()
+    
+    # Print header information
+    header_dict = wfreader.header()
+    print("The header contains the following keys:")
+    print(list(header_dict.keys()))
+    print("Header Dictionary:")
+    print(json.dumps(header_dict, indent=4))
+    print()
+    
+    # Initialize feature list and counters
+    feature_list = []
+    feature_count = 0
+    
+    # Ensure reader is at the start of the file
+    wfreader.rewind()
+    
+    # Load features and track progress
+    feature = wfreader.next()
+    while feature:
+        feature_list.append(feature)
+        feature_count += 1
+        
+        # Print progress every 100 features
+        if feature_count % 100 == 0:
+            print(f"Loaded {feature_count} features")
+        
+        # Stop if maximum features reached
+        if feature_count >= max_features:
+            break
+        
+        # Load the next feature
+        feature = wfreader.next()
+    
+    # Final output of feature count
+    print(f"Loaded a total of {feature_count} features")
+    print(f"Variable 'feature_list' contains {len(feature_list)} features")
+    
+    return feature_list
