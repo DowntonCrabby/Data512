@@ -152,57 +152,57 @@ class Reader:
 
         return json.loads(header_data)
 
-def __next_geojson_feature__(self, file: TextIO) -> Optional[Dict[str, Any]]:
-    feat_str = None     # the feature as a JSON dictionary string
-    feat_dict = None    # the feature converted to a dictionary
-    if file:
+    def __next_geojson_feature__(self, file: TextIO) -> Optional[Dict[str, Any]]:
+        feat_str = None     # the feature as a JSON dictionary string
+        feat_dict = None    # the feature converted to a dictionary
+        if file:
+            char = file.read(1)
+            while char:
+                if char == '{':
+                    feat_str = self.__recurse_geojson_feature_dict__(file, char)
+                    break
+                char = file.read(1)  # Read the next character at the end of the loop
+            if feat_str:
+                try:
+                    feat_dict = json.loads(feat_str)
+                except Exception as e:
+                    print("Looks like the feature string has a problem!")
+                    print(feat_str)
+                    raise e
+        return feat_dict
+
+    def __recurse_geojson_feature_dict__(self, file: TextIO, buffer: str, depth: int = 0) -> str:
+        """
+        Recursively constructs a JSON string for a single feature dictionary.
+        
+        Args:
+            file (TextIO): The file handle for the opened GeoJSON file.
+            buffer (str): The current buffer of the JSON string.
+            depth (int): The current recursion depth.
+        
+        Returns:
+            str: The JSON string for a single feature.
+        
+        Raises:
+            Exception: If recursion depth exceeds 10, indicating malformed JSON.
+        """
+        if depth > 10:
+            raise Exception("Corrupted GeoJSON 'features' list. Exceeded maximum recursion depth.")
+
+        json_obj = buffer
         char = file.read(1)
         while char:
             if char == '{':
-                feat_str = self.__recurse_geojson_feature_dict__(file, char)
-                break
+                json_obj += self.__recurse_geojson_feature_dict__(file, char, depth + 1)
+            else:
+                json_obj += char
+            if char == '}':
+                return json_obj
             char = file.read(1)  # Read the next character at the end of the loop
-        if feat_str:
-            try:
-                feat_dict = json.loads(feat_str)
-            except Exception as e:
-                print("Looks like the feature string has a problem!")
-                print(feat_str)
-                raise e
-    return feat_dict
+        return json_obj
 
-def __recurse_geojson_feature_dict__(self, file: TextIO, buffer: str, depth: int = 0) -> str:
-    """
-    Recursively constructs a JSON string for a single feature dictionary.
-    
-    Args:
-        file (TextIO): The file handle for the opened GeoJSON file.
-        buffer (str): The current buffer of the JSON string.
-        depth (int): The current recursion depth.
-    
-    Returns:
-        str: The JSON string for a single feature.
-    
-    Raises:
-        Exception: If recursion depth exceeds 10, indicating malformed JSON.
-    """
-    if depth > 10:
-        raise Exception("Corrupted GeoJSON 'features' list. Exceeded maximum recursion depth.")
-
-    json_obj = buffer
-    char = file.read(1)
-    while char:
-        if char == '{':
-            json_obj += self.__recurse_geojson_feature_dict__(file, char, depth + 1)
-        else:
-            json_obj += char
-        if char == '}':
-            return json_obj
-        char = file.read(1)  # Read the next character at the end of the loop
-    return json_obj
-
-if __name__ == '__main__':
-    print("Reader.py is a class with no main()")
+    if __name__ == '__main__':
+        print("Reader.py is a class with no main()")
 
 
     
