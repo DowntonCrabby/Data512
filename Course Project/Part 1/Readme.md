@@ -101,7 +101,7 @@ The wildfire data is publicly available on [ScienceBase](https://www.sciencebase
 
 ## Acknowledgments
 
-This project was completed as part of a course assignment. Special thanks to the US Geological Survey and US EPA for providing the datasets used in this analysis. Additionally, thanks to classmates who provided code snippets and shared techniques during the collaborative phase of the project.
+This project was completed as part of a course assignment. Special thanks to the US Geological Survey and US EPA for providing the datasets used in this analysis. 
 
 Code in this repo developed and based off oc examples provided by Dr. David W. McDonald for use in DATA 512, a course in the UW MS Data Science degree program. Dr. McDonald's code is provided under the Creative Commons CC-BY license. Revision 1.1 - August 16, 2024.
 
