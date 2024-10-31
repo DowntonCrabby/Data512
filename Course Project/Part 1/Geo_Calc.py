@@ -4,6 +4,7 @@
 # IMPORTS
 #
 ##################################
+import numpy as np
 import pandas as pd
 from pyproj import Transformer, Geod
 from typing import List, Tuple, Dict, Union, Optional
@@ -23,16 +24,20 @@ to_epsg4326 = Transformer.from_crs("ESRI:102008", "EPSG:4326", always_xy=True)
 #
 ##################################
 
-def convert_ring_to_epsg4326(ring_data: List[Union[List[float], Tuple[float, float]]]) -> List[Tuple[float, float]]:
+def convert_ring_to_epsg4326(ring_data: List[Union[List[float], Tuple[float, float]]]
+                             ) -> List[Tuple[float, float]]:
     """
-    Converts a ring of coordinates from ESRI:102008 projection to EPSG:4326 (latitude, longitude).
+    Converts a ring of coordinates from ESRI:102008 projection to 
+    EPSG:4326 (latitude, longitude).
     
     Args:
-        ring_data (List[Union[List[float], Tuple[float, float]]]): A list of coordinates representing a ring. 
-            Each coordinate should be a list or tuple containing at least two floats [x, y].
+        ring_data (List[Union[List[float], Tuple[float, float]]]): 
+        A list of coordinates representing a ring. Each coordinate should
+        be a list or tuple containing at least two floats [x, y].
     
     Returns:
-        List[Tuple[float, float]]: A list of transformed coordinates in (latitude, longitude) format.
+        List[Tuple[float, float]]: A list of transformed coordinates 
+        in (latitude, longitude) format.
     
     Example:
         ring = [[1000000.0, 2000000.0], [1100000.0, 2100000.0]]
@@ -41,7 +46,8 @@ def convert_ring_to_epsg4326(ring_data: List[Union[List[float], Tuple[float, flo
     The function performs the following:
         1. Initializes a transformer to convert from ESRI:102008 to EPSG:4326.
         2. Iterates over each coordinate in `ring_data`.
-        3. Attempts to transform valid coordinates to (latitude, longitude) and appends them to `converted_ring`.
+        3. Attempts to transform valid coordinates to (latitude, longitude) and
+           appends them to `converted_ring`.
         4. Skips and logs any invalid or improperly structured coordinates.
     """
     converted_ring: List[Tuple[float, float]] = []
@@ -171,107 +177,95 @@ def average_distance_from_location_to_fire_perimeter(
     return average_distance_miles
 
 
-def find_fires_within_range(
-        location: Tuple[float, float],
-        max_distance_miles: float,
-        feature_list: List[Dict],
-        distance_type: str = "closest",
-        debug: bool = False
-        ) -> List[Dict[str, Union[str, float, int, Tuple[float, float]]]]:
+def process_fire_distances_from_location(
+        location_coords: Tuple[float, float], 
+        fire_features: List[Dict], 
+        verbose: bool = False
+        ) -> pd.DataFrame:
     """
-    Find fires within a specified distance range from a given location.
+    Calculates the closest and average distances from a specified
+    location to each fire perimeter in a list of fire features, and
+    extracts key fire attributes.
 
     Parameters
     ----------
-    location : tuple of float
-        A tuple representing the latitude and longitude (lat, lon) of the 
-        location in decimal degrees (EPSG:4326).
-    max_distance_miles : float
-        The maximum distance in miles to search for fires.
-    feature_list : list of dict
-        A list of features representing fire data, where each feature 
-        contains 'attributes' and 'geometry' keys.
-    distance_type : {'closest', 'average'}, optional
-        The type of distance calculation to use:
-        - 'closest': Uses the shortest distance from `location` to the 
-          fire perimeter.
-        - 'average': Uses the average distance from `location` to the 
-          fire perimeter.
-        Default is 'closest'.
-    debug : bool, optional
-        If True, print debugging statements during processing. Default 
-        is False.
+    location_coords : tuple
+        Coordinates of the reference location as (latitude, longitude).
+    fire_features : list of dict
+        List of dictionaries containing fire features, each with attributes and geometry.
+    verbose : bool, optional
+        If True, prints progress for every 100 features processed, by default False.
 
     Returns
     -------
-    list of dict
-        A list of dictionaries for fires within the specified range, 
-        each containing:
-        - 'fire_name': Name of the fire.
-        - 'fire_year': Year of the fire.
-        - 'fire_size_acres': Area of the fire in acres.
-        - 'distance_miles': The calculated distance to the fire perimeter.
-        - 'perimeter_points_count': Number of points in the perimeter.
-        - 'closest_point' or 'average_point': The closest or representative
-          point on the fire perimeter.
-
+    pd.DataFrame
+        A DataFrame with calculated distances and fire attributes for each fire feature.
+    
     Raises
     ------
-    ValueError
-        If `distance_type` is not 'closest' or 'average'.
-
-    Examples
-    --------
-    >>> location = (34.0522, -118.2437)  # Los Angeles coordinates
-    >>> max_distance_miles = 50
-    >>> fires = find_fires_within_range(location, max_distance_miles, fire_features)
+    Exception
+        If no compatible geometry (rings or curveRings) is found in a fire feature.
     """
-    if distance_type not in {"closest", "average"}:
-        raise ValueError("distance_type must be 'closest' or 'average'.")
+    # Initialize Geod object for distance calculation
+    geodetic_calculator = Geod(ellps='WGS84')
+    results: List[Dict[str, float]] = []
 
-    fires_within_range = []
-    total_features = len(feature_list)
+    for fire_index, fire_feature in enumerate(fire_features):
+        # Extract fire attributes
+        fire_id = fire_feature['attributes'].get("USGS Assigned ID", "Unknown ID")
+        fire_year = fire_feature['attributes']['Fire_Year']
+        fire_dates = fire_feature['attributes']["Listed_Fire_Dates"]
+        fire_name = fire_feature['attributes']['Listed_Fire_Names'].split(',')[0]
+        fire_size_acres = fire_feature['attributes']['GIS_Acres']
+        fire_type = fire_feature['attributes']['Assigned_Fire_Type']
 
-    for feature_index, fire_feature in enumerate(feature_list):
-        if debug and feature_index % 100 == 0:
-            print(f"Processing feature {feature_index + 1} of {total_features}...")
-
-        fire_attributes = fire_feature.get('attributes', {})
-        fire_geometry = fire_feature.get('geometry', {})
-
-        if 'rings' in fire_geometry:
-            ring_data = fire_geometry['rings'][0]
-        elif 'curveRings' in fire_geometry:
-            ring_data = fire_geometry['curveRings'][0]
+        # Determine geometry ring data
+        if 'rings' in fire_feature['geometry']:
+            ring_data = fire_feature['geometry']['rings'][0]
+        elif 'curveRings' in fire_feature['geometry']:
+            ring_data = fire_feature['geometry']['curveRings'][0]
         else:
-            continue
+            raise Exception("No compatible geometry in this fire data!")
 
-        if distance_type == "closest":
-            distance, point = shortest_distance_from_location_to_fire_perimeter(location, ring_data)
-        else:
-            distance = average_distance_from_location_to_fire_perimeter(location, ring_data)
-            point = None  # Average distance does not yield a specific point
+        # Convert ring data to EPSG:4326 (assumed function)
+        ring = convert_ring_to_epsg4326(ring_data)
+        
+        # Calculate all distances from the location to the points in the ring (in meters)
+        distances_meters = np.array([
+            geodetic_calculator.inv(location_coords[1], location_coords[0], point[1], point[0])[2] 
+            for point in ring
+        ])
 
-        if debug:
-            print(f"Feature {feature_index + 1}: Distance to perimeter = {distance:.2f} miles")
+        # Convert distances to miles
+        distances_miles = distances_meters * 0.00062137
+        
+        # Find the closest distance and average distance
+        closest_distance_miles = float(np.min(distances_miles))
+        closest_point_index = int(np.argmin(distances_miles))
+        closest_point = ring[closest_point_index]
+        average_distance_miles = float(np.mean(distances_miles))
 
-        if distance <= max_distance_miles:
-            fires_within_range.append({
-                'fire_name': fire_attributes.get('Listed_Fire_Names', 'Unknown Fire').split(',')[0],
-                'fire_year': fire_attributes.get('Fire_Year', 'Unknown Year'),
-                'fire_size_acres': fire_attributes.get('GIS_Acres', 0),
-                'distance_miles': distance,
-                'perimeter_points_count': len(ring_data),
-                'closest_point' if distance_type == "closest" else 'average_point': point
-            })
+        # Append the results for this fire
+        results.append({
+            "usgs_assigned_id": fire_id,
+            "fire_year": fire_year,
+            "fire_dates": fire_dates,
+            "fire_name": fire_name,
+            "fire_size_acres": fire_size_acres,
+            "fire_type": fire_type,
+            "closest_distance_miles": closest_distance_miles,
+            "closest_point_lat": closest_point[0],
+            "closest_point_lon": closest_point[1],
+            "average_distance_miles": average_distance_miles
+        })
 
-    if debug and not fires_within_range:
-        print(f"No fires found within {max_distance_miles} miles of location {location}.")
+        # Print progress every 100 features if verbose is True
+        if verbose and (fire_index + 1) % 100 == 0:
+            print(f"Processed {fire_index + 1} features")
 
-    if debug:
-        print(f"Finished processing {total_features} features.")
-
-    return fires_within_range
+    # Convert the list of results dictionaries to a DataFrame
+    df_results = pd.DataFrame(results)
+    return df_results
 
 
 ##################################
