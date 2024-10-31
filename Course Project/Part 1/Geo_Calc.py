@@ -6,6 +6,7 @@
 ##################################
 import numpy as np
 import pandas as pd
+import numpy as np
 from pyproj import Transformer, Geod
 from typing import List, Tuple, Dict, Union, Optional
 
@@ -179,7 +180,7 @@ def average_distance_from_location_to_fire_perimeter(
 
 def process_fire_distances_from_location(
         location_coords: Tuple[float, float], 
-        fire_features: List[Dict], 
+        fires_data: List[Dict], 
         verbose: bool = False
         ) -> pd.DataFrame:
     """
@@ -210,20 +211,20 @@ def process_fire_distances_from_location(
     geodetic_calculator = Geod(ellps='WGS84')
     results: List[Dict[str, float]] = []
 
-    for fire_index, fire_feature in enumerate(fire_features):
+    for fire_index, fire_data in enumerate(fires_data):
         # Extract fire attributes
-        fire_id = fire_feature['attributes'].get("USGS Assigned ID", "Unknown ID")
-        fire_year = fire_feature['attributes']['Fire_Year']
-        fire_dates = fire_feature['attributes']["Listed_Fire_Dates"]
-        fire_name = fire_feature['attributes']['Listed_Fire_Names'].split(',')[0]
-        fire_size_acres = fire_feature['attributes']['GIS_Acres']
-        fire_type = fire_feature['attributes']['Assigned_Fire_Type']
+        fire_id = fire_data['attributes'].get("USGS_Assigned_ID")
+        fire_year = fire_data['attributes']['Fire_Year']
+        fire_dates = fire_data['attributes']["Listed_Fire_Dates"]
+        fire_name = fire_data['attributes']['Listed_Fire_Names'].split(',')[0]
+        fire_size_acres = fire_data['attributes']['GIS_Acres']
+        fire_type = fire_data['attributes']['Assigned_Fire_Type']
 
         # Determine geometry ring data
-        if 'rings' in fire_feature['geometry']:
-            ring_data = fire_feature['geometry']['rings'][0]
-        elif 'curveRings' in fire_feature['geometry']:
-            ring_data = fire_feature['geometry']['curveRings'][0]
+        if 'rings' in fire_data['geometry']:
+            ring_data = fire_data['geometry']['rings'][0]
+        elif 'curveRings' in fire_data['geometry']:
+            ring_data = fire_data['geometry']['curveRings'][0]
         else:
             raise Exception("No compatible geometry in this fire data!")
 
