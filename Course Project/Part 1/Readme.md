@@ -79,6 +79,65 @@ This XML file provides additional metadata specific to the polygon fire perimete
 - **Reader.py**: Utility script for reading GeoJSON wildfire data.
 - **Provided Resources/**: Folder containing additional resources provided for the course.
 - **input files/**: Folder containing the input data files used for analysis.
+## Intermediate Files
+
+This project produces several intermediate CSV files during the data retrieval, cleaning, and processing steps. Each file serves as a crucial input for further analysis and modeling. Below is a description of each file, its origin, and the columns it contains.
+
+### Files Produced by `Retrieve AQI Readings` Notebook
+
+1. **all_aqi_data.csv**
+   - **Description**: Contains raw AQI readings for all specified pollutants over the selected time period.
+   - **Columns**:
+     - `year`: The year the data was collected.
+     - `date_local`: The local date of the AQI measurement.
+     - `site_number`: Identifier for the monitoring site.
+     - `latitude`, `longitude`: Geographical coordinates of the monitoring site.
+     - `aqi`: The Air Quality Index (AQI) value.
+
+2. **all_pollutant_data.csv**
+   - **Description**: Includes data for various pollutants beyond AQI, capturing readings of particulate matter and gaseous pollutants.
+   - **Columns**:
+     - `year`, `date_local`, `site_number`, `latitude`, `longitude`: As described above.
+     - `pollutant`: The type of pollutant measured (e.g., ozone, CO).
+     - `value`: Concentration of the pollutant.
+     - `units`: Units of measurement (e.g., ppm, µg/m³).
+
+3. **subset_aqi_data.csv**
+   - **Description**: A refined subset of `all_aqi_data.csv` that focuses on specific AQI values within a target date range or geographical area.
+   - **Columns**:
+     - `year`: Year of the AQI measurement.
+     - `date_local`: The local date of the AQI measurement.
+     - `site_number`: Monitoring site identifier.
+     - `latitude`, `longitude`: Location of the monitoring site.
+     - `aqi`: The AQI value for the measurement.
+
+### Files Produced by `Subset Wildfire Data and Calculate Distances` Notebook
+
+1. **fire_distances.csv**
+   - **Description**: Contains data on wildfire incidents and calculates the distance of each fire from the specified city or region of interest. Each entry represents a unique wildfire event.
+   - **Columns**:
+     - `usgs_assigned_id`: Unique identifier for each wildfire event.
+     - `fire_year`: The year of the fire.
+     - `fire_dates`: Date range during which the fire burned.
+     - `fire_name`: Name of the wildfire.
+     - `fire_size_acres`: Size of the fire in acres.
+     - `fire_type`: Classification of the fire (e.g., Wildfire, Prescribed Burn).
+     - `closest_distance_miles`: Closest distance from the fire to the city (in miles).
+     - `closest_point_lat`, `closest_point_lon`: Coordinates of the closest point on the wildfire perimeter.
+     - `average_distance_miles`: Average distance from the wildfire to the city.
+
+2. **Wildland_Fire_Combined_Subset.csv**
+   - **Description**: A combined dataset of wildfire data specific to the target city or area, filtered to include essential attributes for the analysis.
+   - **Columns**:
+     - `USGS_Assigned_ID`: Unique identifier for each wildfire.
+     - `Assigned_Fire_Type`: Classification of the fire (e.g., Wildfire, Prescribed Burn).
+     - `Fire_Year`: The year of the wildfire.
+     - `Trusted_Start_Date`: Estimated start date of the fire.
+     - `Trusted_End_Date`: Estimated end date of the fire.
+     - `duration_days`: Total duration of the fire (in days).
+     - `GIS_Acres`: Geographic Information System-calculated acres burned.
+
+These intermediate files provide structured data essential for further analysis, including examining air quality impacts of wildfires, calculating smoke exposure levels, and identifying trends over time.
 
 ## Methodology
 
