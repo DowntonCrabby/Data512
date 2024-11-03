@@ -71,14 +71,21 @@ This XML file provides additional metadata specific to the polygon fire perimete
 
 # Repository Contents
 
+### Notebooks
+- **Subset Wildfire Data and Calculate Distances.ipynb**: Jupyter notebook that subsets wildfire data and calculates distances from Tallahassee.
+- **Retrieve AQI Readings.ipynb.ipynb**: Notebook that pulls AQI data from the EPA AQS API for Tallahassee.
+- **Fire Smoke Model.ipynb.ipynb**: Notebook that develops a predictive model for estimating future wildfire smoke impacts for Tallahassee (for the years 2025-2050).
+- **Data Visualizations.ipynb**: Notebook containing visualizations related to the wildfire analysis, including time series graphs and histograms of fire data.
+
+### modules
 - **Geo_Calc.py**: Contains the geodetic distance calculation functions used to find fires within a specific radius of Tallahassee.
-- **Notebook1_Subset_Wildfire_Data_calculate_distances.ipynb**: Jupyter notebook that subsets wildfire data and calculates distances from Tallahassee.
-- **Notebook2_Pull_AQI_Data.ipynb**: Notebook that pulls AQI data from the EPA AQS API for Tallahassee.
-- **Notebook3_Smoke_Impact_Model.ipynb**: Notebook that develops a predictive model for estimating future wildfire smoke impacts for Tallahassee (for the years 2025-2050).
-- **Notebook4_Data_Visualizations.ipynb**: Notebook containing visualizations related to the wildfire analysis, including time series graphs and histograms of fire data.
-- **Reader.py**: Utility script for reading GeoJSON wildfire data.
+- **Wildfire_JSON_Reader.py**: Utility script for reading GeoJSON wildfire data.
+
+### folders
 - **Provided Resources/**: Folder containing additional resources provided for the course.
-- **input files/**: Folder containing the input data files used for analysis.
+- **intermediate files/**: Folder containing the csvs that were created during the execution of the notebooks.
+- **visualizations/**: Folder containing the 3 requested visualizations.
+
 ## Intermediate Files
 
 This project produces several intermediate CSV files during the data retrieval, cleaning, and processing steps. Each file serves as a crucial input for further analysis and modeling. Below is a description of each file, its origin, and the columns it contains.
