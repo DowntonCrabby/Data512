@@ -76,6 +76,7 @@ This XML file provides additional metadata specific to the polygon fire perimete
 - **Retrieve AQI Readings.ipynb.ipynb**: Notebook that pulls AQI data from the EPA AQS API for Tallahassee.
 - **Fire Smoke Model.ipynb.ipynb**: Notebook that develops a predictive model for estimating future wildfire smoke impacts for Tallahassee (for the years 2025-2050).
 - **Data Visualizations.ipynb**: Notebook containing visualizations related to the wildfire analysis, including time series graphs and histograms of fire data.
+the Subset Wildfire data and Retrieve AQI readings were completed before the Fire Smoke Model and Data Visualization notebooks
 
 ### modules
 - **Geo_Calc.py**: Contains the geodetic distance calculation functions used to find fires within a specific radius of Tallahassee.
@@ -84,7 +85,7 @@ This XML file provides additional metadata specific to the polygon fire perimete
 ### folders
 - **Provided Resources/**: Folder containing additional resources provided for the course.
 - **intermediate files/**: Folder containing the csvs that were created during the execution of the notebooks.
-- **visualizations/**: Folder containing the 3 requested visualizations.
+- **visualizations and write up/**: Folder containing the 3 requested visualizations and written reflection.
 
 ## Intermediate Files
 
@@ -92,24 +93,7 @@ This project produces several intermediate CSV files during the data retrieval, 
 
 ### Files Produced by `Retrieve AQI Readings` Notebook
 
-1. **all_aqi_data.csv**
-   - **Description**: Contains raw AQI readings for all specified pollutants over the selected time period.
-   - **Columns**:
-     - `year`: The year the data was collected.
-     - `date_local`: The local date of the AQI measurement.
-     - `site_number`: Identifier for the monitoring site.
-     - `latitude`, `longitude`: Geographical coordinates of the monitoring site.
-     - `aqi`: The Air Quality Index (AQI) value.
-
-2. **all_pollutant_data.csv**
-   - **Description**: Includes data for various pollutants beyond AQI, capturing readings of particulate matter and gaseous pollutants.
-   - **Columns**:
-     - `year`, `date_local`, `site_number`, `latitude`, `longitude`: As described above.
-     - `pollutant`: The type of pollutant measured (e.g., ozone, CO).
-     - `value`: Concentration of the pollutant.
-     - `units`: Units of measurement (e.g., ppm, µg/m³).
-
-3. **subset_aqi_data.csv**
+1. **subset_aqi_data.csv**
    - **Description**: A refined subset of `all_aqi_data.csv` that focuses on specific AQI values within a target date range or geographical area.
    - **Columns**:
      - `year`: Year of the AQI measurement.
