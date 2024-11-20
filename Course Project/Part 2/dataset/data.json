@@ -1,0 +1,208 @@
+{
+  "@type": "Dataset",
+  "identifier": "10.1038/s41597-019-0251-y",
+  "title": "Metadata record for: A dataset on human perception of and response to wildfire smoke",
+  "relatedPublications": [],
+  "repositories": [
+    {
+      "name": "figshare",
+      "value": "https://doi.org/10.6084/m9.figshare.c.4316795",
+      "@type": "DataCatalog"
+    }
+  ],
+  "assays": [
+    {
+      "measurementType": {
+        "annotationValue": "Perception",
+        "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16967",
+        "termSource": "NCIT",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "survey method",
+        "termAccession": "http://purl.obolibrary.org/obo/ERO_0001320",
+        "termSource": "ERO",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "response to",
+        "termAccession": "http://purl.obolibrary.org/obo/PATO_0000077",
+        "termSource": "MS",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "survey method",
+        "termAccession": "http://purl.obolibrary.org/obo/ERO_0001320",
+        "termSource": "ERO",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    }
+  ],
+  "factors": [
+    {
+      "name": "hazard condition",
+      "type": {
+        "annotationValue": "experimental condition",
+        "termAccession": "http://purl.obolibrary.org/obo/XCO_0000000",
+        "termSource": "XCO",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "name": "age",
+      "type": {
+        "annotationValue": "age",
+        "termAccession": "http://purl.obolibrary.org/obo/PATO_0000011",
+        "termSource": "PATO",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "name": "sex",
+      "type": {
+        "annotationValue": "sex",
+        "termAccession": "http://purl.obolibrary.org/obo/PATO_0000047",
+        "termSource": "CLO",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "name": "income",
+      "type": {
+        "annotationValue": "CHART-SF Paper Version - Combined Annual Household Income Last Year",
+        "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C119161",
+        "termSource": "NCIT",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "name": "education",
+      "type": {
+        "annotationValue": "Education Level",
+        "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17953",
+        "termSource": "NCIT",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    }
+  ],
+  "studyCharacteristics": {
+    "organism": [
+      {
+        "annotationValue": "Homo sapiens",
+        "termAccession": "http://purl.bioontology.org/ontology/NCBITAXON/9606",
+        "termSource": "NCBITAXON",
+        "@type": "PropertyValue"
+      }
+    ],
+    "environmentType": [
+      {
+        "annotationValue": "wildfire",
+        "termAccession": "http://purl.obolibrary.org/obo/ENVO_01000787",
+        "termSource": "ENVO",
+        "@type": "PropertyValue"
+      },
+      {
+        "annotationValue": "smoke",
+        "termAccession": "http://purl.obolibrary.org/obo/ENVO_01000838",
+        "termSource": "ENVO",
+        "@type": "PropertyValue"
+      }
+    ],
+    "geographicalLocation": [
+      {
+        "annotationValue": "Boise County",
+        "termAccession": "http://purl.obolibrary.org/obo/GAZ_22223949",
+        "termSource": "GAZ",
+        "@type": "Place"
+      }
+    ],
+    "@type": "variableMeasured"
+  },
+  "ontologySourceReferences": {
+    "ENVO": {
+      "name": "ENVO",
+      "description": "Environment Ontology",
+      "file": "http://data.bioontology.org/ontologies/ENVO",
+      "version": null,
+      "@type": "DefinedTermSet"
+    },
+    "ERO": {
+      "name": "ERO",
+      "description": "Eagle-I Research Resource Ontology",
+      "file": "http://data.bioontology.org/ontologies/ERO",
+      "version": "2013-08-02",
+      "@type": "DefinedTermSet"
+    },
+    "GAZ": {
+      "name": "GAZ",
+      "description": "Gazetteer",
+      "file": "http://data.bioontology.org/ontologies/GAZ",
+      "version": "$Revision: 1.512 $",
+      "@type": "DefinedTermSet"
+    },
+    "NCBITAXON": {
+      "name": "NCBITAXON",
+      "description": "National Center for Biotechnology Information (NCBI) Organismal Classification",
+      "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+      "version": "2019AB",
+      "@type": "DefinedTermSet"
+    },
+    "NCIT": {
+      "name": "NCIT",
+      "description": "National Cancer Institute Thesaurus",
+      "file": "http://data.bioontology.org/ontologies/NCIT",
+      "version": "20.01d",
+      "@type": "DefinedTermSet"
+    },
+    "XCO": {
+      "name": "XCO",
+      "description": "Experimental Conditions Ontology",
+      "file": "http://data.bioontology.org/ontologies/XCO",
+      "version": "4.26",
+      "@type": "DefinedTermSet"
+    },
+    "CLO": {
+      "name": "CLO",
+      "description": "Cell Line Ontology",
+      "file": "http://data.bioontology.org/ontologies/CLO",
+      "version": "2.1.162",
+      "@type": "DefinedTermSet"
+    },
+    "PATO": {
+      "name": "PATO",
+      "description": "Phenotypic Quality Ontology",
+      "file": "http://data.bioontology.org/ontologies/PATO",
+      "version": "unknown",
+      "@type": "DefinedTermSet"
+    },
+    "MS": {
+      "name": "MS",
+      "description": "Mass Spectrometry Ontology",
+      "file": "http://data.bioontology.org/ontologies/MS",
+      "version": "4.1.22",
+      "@type": "DefinedTermSet"
+    },
+    "@type": "CategoryCodeSet"
+  },
+  "comments": [
+    {
+      "name": "Created With Configuration",
+      "value": "1.0",
+      "@type": "SoftwareApplication"
+    },
+    {
+      "name": "Data Descriptor License",
+      "value": "CC-BY-4.0",
+      "@type": "CreativeWork"
+    }
+  ]
+}
