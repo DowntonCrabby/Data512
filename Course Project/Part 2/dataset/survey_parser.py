@@ -6,7 +6,7 @@
 
 import os
 import pandas as pd
-from typing import Tuple, Dict
+from typing import Tuple, Dict, List
 import xml.etree.ElementTree as ET
 
 
@@ -102,6 +102,7 @@ def load_and_structure_survey_csv(file_path: str) -> pd.DataFrame:
     df.rename(columns={df.columns[0]: 'participant_id'}, inplace=True)
     
     return df
+
 
 def apply_metadata_mapping(df: pd.DataFrame,
                            questions_map: Dict[str, str],
@@ -263,6 +264,7 @@ def split_by_question(df: pd.DataFrame,
     # Create and return the subset dataframe
     return df[question_columns]
 
+
 def split_all_questions(df: pd.DataFrame) -> Dict[str, pd.DataFrame]:
     """
     Splits the dataframe into separate dataframes for each question prefix.
@@ -330,6 +332,37 @@ def rename_option_columns(question_dataframe: pd.DataFrame,
     return question_dataframe
 
 
+def identify_binary_questions(question_dfs: Dict[str, pd.DataFrame]
+                              ) -> List[str]:
+    """
+    Identify questions that have binary answers (0/1) in their dataframes.
+
+    Parameters
+    ----------
+    question_dfs : Dict[str, pd.DataFrame]
+        A dictionary where keys are question prefixes (e.g., 'Question 2') and
+        values are the corresponding dataframes.
+
+    Returns
+    -------
+    List[str]
+        A list of question prefixes that have at least one binary column.
+    """
+    binary_questions = []
+    
+    for question_prefix, question_df in question_dfs.items():
+        # Identify binary columns
+        binary_columns = [
+            column for column in question_df.columns
+            if question_df[column].dropna().isin([0, 1]).all()
+        ]
+        # If binary columns exist, add the question prefix to the result
+        if binary_columns:
+            binary_questions.append(question_prefix)
+    
+    return binary_questions
+
+
 def collapse_binary_columns_to_single(df: pd.DataFrame,
                                       new_column_name: str
                                       ) -> pd.DataFrame:
@@ -372,11 +405,10 @@ def collapse_binary_columns_to_single(df: pd.DataFrame,
 
     return collapsed_df
 
-def process_survey_data(
-    df: pd.DataFrame,
-    question_options: pd.DataFrame,
-    question_to_column_name_mapping: Dict[str, str] = QUESTION_COL_NAME_MAP
-    ) -> Dict[str, pd.DataFrame]:
+def process_survey_data(df: pd.DataFrame,
+                        question_options: pd.DataFrame,
+                        question_to_column_name_mapping: Dict[str, str] = QUESTION_COL_NAME_MAP
+                        ) -> Dict[str, pd.DataFrame]:
     """
     Processes the survey dataframe by splitting it by question, renaming option
     columns, collapsing binary columns into a single column, and renaming the
