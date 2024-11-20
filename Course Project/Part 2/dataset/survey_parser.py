@@ -10,6 +10,41 @@ from typing import Tuple, Dict
 import xml.etree.ElementTree as ET
 
 
+##################################
+#
+# CONSTANTS
+#
+##################################
+QUESTION_COL_NAME_MAP = {
+    'Question 2': 'age',
+    'Question 3': 'gender',
+    'Question 4': 'race',
+    'Question 5': 'zip_code',
+    'Question 6': 'education_level',
+    'Question 7': 'income',
+    'Question 8': 'general_health_status',
+    'Question 9': 'outside_activity_engagement',
+    'Question 10': 'outside_activity_frequency',
+    'Question 11': 'air_quality_notification_received',
+    'Question 12': 'seek_air_quality_info',
+    'Question 13': 'info_source_for_smoke_notifications',
+    'Question 14': 'days_checked_for_smoke_info',
+    'Question 15': 'reduced_outdoor_activities_due_to_smoke',
+    'Question 16': 'consecutive_days_reduced_outdoor_activity',
+    'Question 17': 'min_aqi_reduce_activity',
+    'Question 18': 'min_aqi_eliminate_activity',
+    'Question 19': 'motivating_info_to_reduce_outdoor_activity',
+    'Question 20': 'motivating_message_type_for_mitigation',
+    'Question 21': 'motivating_message_content',
+    'Question 22': 'preferred_warning_timing',
+    'Question 23': 'future_mitigation_actions',
+    'Question 24': 'perception_of_smoke_as_hazard',
+    'Question 25': 'compare_smoke_with_other_disasters',
+    'Question 26': 'consider_evacuating_due_to_smoke',
+    'Question 27': 'smoke_related_health_experience',
+    'Question 28': 'symptoms_during_smoke_event',
+    'Question 29': 'mitigation_strategies_for_health_issues'
+}
 
 ##################################
 #
@@ -133,7 +168,8 @@ def apply_metadata_mapping(df: pd.DataFrame,
 
 
 def parse_survey_metadata(metadata_path: str
-                          ) -> Tuple[Dict[str, str],Dict[str, Dict[str, str]]]:
+                          ) -> Tuple[Dict[str, str],
+                                     Dict[str, Dict[str, str]]]:
     """
     Parses an XML metadata file to extract survey questions and their 
     corresponding answer options.
@@ -295,7 +331,6 @@ def rename_option_columns(question_dataframe: pd.DataFrame,
 
 
 def collapse_binary_columns_to_single(df: pd.DataFrame,
-                                      binary_columns: list,
                                       new_column_name: str
                                       ) -> pd.DataFrame:
     """
@@ -305,8 +340,6 @@ def collapse_binary_columns_to_single(df: pd.DataFrame,
     ----------
     df : pd.DataFrame
         The input dataframe containing binary columns.
-    binary_columns : list
-        List of column names with binary data to be collapsed.
     new_column_name : str
         Name of the new single column where binary column titles will be stored.
 
@@ -316,6 +349,12 @@ def collapse_binary_columns_to_single(df: pd.DataFrame,
         Dataframe with binary columns replaced by a single column containing
         their respective titles as values.
     """
+    # Identify binary columns (columns with only 0 and 1 values)
+    binary_columns = [
+        column for column in df.columns
+        if df[column].dropna().isin([0, 1]).all()
+    ]
+    
     # Ensure binary columns are correctly formatted
     collapsed_df = df.copy()
 
@@ -332,3 +371,58 @@ def collapse_binary_columns_to_single(df: pd.DataFrame,
     collapsed_df = collapsed_df.drop(columns=binary_columns)
 
     return collapsed_df
+
+def process_survey_data(
+    df: pd.DataFrame,
+    question_options: pd.DataFrame,
+    question_to_column_name_mapping: Dict[str, str] = QUESTION_COL_NAME_MAP
+    ) -> Dict[str, pd.DataFrame]:
+    """
+    Processes the survey dataframe by splitting it by question, renaming option
+    columns, collapsing binary columns into a single column, and renaming the
+    final column using the provided mapping.
+
+    Parameters
+    ----------
+    df : pd.DataFrame
+        The original dataframe containing participant responses for multiple
+        questions.
+    question_to_column_name_mapping : Dict[str, str]
+        A mapping from question prefixes (e.g., 'Question 2') to the desired
+        column names.
+    question_options : pd.DataFrame
+        Dataframe mapping question codes to option texts.
+
+    Returns
+    -------
+    Dict[str, pd.DataFrame]
+        A dictionary where each key is a question prefix, and each value is a
+        processed dataframe for that question.
+    """
+    # Extract unique question prefixes
+    question_prefixes = sorted(set(
+        col.split(' ')[0] for col in df.columns if col.startswith('Question')
+    ))
+
+    processed_dataframes = {}
+    
+    for question_prefix in question_prefixes:
+        # Split the dataframe by question
+        question_df = split_by_question(df, question_prefix)
+        
+        # Rename option columns using question_options
+        renamed_question_df = rename_option_columns(question_df, question_options)
+        
+        # Collapse binary columns into a single column if applicable
+        if question_prefix in question_to_column_name_mapping:
+            new_column_name = question_to_column_name_mapping[question_prefix]
+            final_question_df = collapse_binary_columns_to_single(
+                renamed_question_df, new_column_name
+            )
+        else:
+            final_question_df = renamed_question_df
+        
+        # Add processed dataframe to the dictionary
+        processed_dataframes[question_prefix] = final_question_df
+    
+    return processed_dataframes
