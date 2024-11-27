@@ -1,0 +1,27 @@
+AQI Category,Action,Percentage
+"0-50:
+Good",Reduce,0.19292604501607716
+"51-100:
+Moderate",Reduce,12.733118971061094
+"101-150:
+Unhealthy for
+ Sensitive Grps.",Reduce,52.926045016077175
+"151-200:
+Unhealthy",Reduce,26.881028938906752
+"201-300:
+Very Unhealthy",Reduce,3.7942122186495175
+"301+:
+Hazardous",Reduce,0.7717041800643086
+"0-50:
+Good",Eliminate,0.19230769230769232
+"51-100:
+Moderate",Eliminate,2.371794871794872
+"101-150:
+Unhealthy for
+ Sensitive Grps.",Eliminate,22.17948717948718
+"151-200:
+Unhealthy",Eliminate,47.43589743589743
+"201-300:
+Very Unhealthy",Eliminate,19.48717948717949
+"301+:
+Hazardous",Eliminate,5.705128205128205

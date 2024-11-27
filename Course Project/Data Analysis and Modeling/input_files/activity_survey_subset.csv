@@ -1,0 +1,6933 @@
+participant_id,reduced_outdoor_activities_due_to_smoke,outside_activity_frequency,min_aqi_reduce_activity,min_aqi_eliminate_activity
+Participant 1,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 1,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 10,No,Daily,I am not familiar with this rating,"301+:
+Hazardous"
+Participant 10,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 100,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 100,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1000,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1002,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1003,No,~1 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 1004,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1005,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1006,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1007,No,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1008,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1009,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 101,No,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 101,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1010,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1011,Yes,~3 per week,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 1012,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1013,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1014,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1015,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1016,Yes,Daily,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 1017,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 102,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 102,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1020,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1022,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1023,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1024,Yes,~1-3 per month,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1025,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 1026,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1027,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1028,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1029,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 103,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 1030,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1031,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1032,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1033,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1034,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1035,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1037,Yes,~1 per week,"201-300:
+Very Unhealthy","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1038,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1039,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1040,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1042,No,~3 per week,"151-200:
+Unhealthy","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1043,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1044,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1045,No,~1 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1046,No,Daily,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 1047,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1048,Yes,~1-3 per month,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1049,Yes,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 105,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1050,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 1051,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1052,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1053,Yes,~1-3 per summer,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1055,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1056,Yes,~3 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 1057,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1058,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 1059,No,Daily,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 106,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 106,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1060,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1061,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1063,No,Daily,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 1064,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1065,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1066,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1067,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1068,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1069,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 107,No,~1-3 per month,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 1070,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1071,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1072,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 1073,Yes,~1 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1074,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1075,No,~1-3 per summer,"151-200:
+Unhealthy","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1076,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1077,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1078,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1079,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 108,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1080,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1082,No,~1 per week,"201-300:
+Very Unhealthy","151-200:
+Unhealthy"
+Participant 1083,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1084,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1085,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1086,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1087,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1088,No,~1 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 1089,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 109,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1090,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1091,No,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1092,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1093,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1094,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1095,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1096,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1097,Yes,~1 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1098,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1099,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 11,No,Daily,"0-50:
+Good","0-50:
+Good"
+Participant 11,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 110,Yes,~1-3 per month,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 110,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1100,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1101,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1102,No,~1-3 per summer,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 1103,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1104,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1105,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1106,No,~1-3 per month,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1107,No,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 1108,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1109,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 111,No,~1-3 per summer,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1110,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1111,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1112,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1113,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1114,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1115,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1116,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1117,No,~1-3 per summer,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1118,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1119,No,~3 per week,I am not familiar with this rating,"101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 112,Yes,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 112,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1120,Yes,~1 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1121,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 1122,No,~1-3 per month,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1123,Yes,~1 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1124,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1125,No,~1-3 per month,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1126,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1127,No,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1128,Yes,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 1129,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 113,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 113,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1130,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","51-100:
+Moderate"
+Participant 1131,Yes,~3 per week,"301+:
+Hazardous","151-200:
+Unhealthy"
+Participant 1132,Yes,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 1134,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1135,Yes,~1 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1136,Yes,~1 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1137,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1138,No,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 114,No,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 114,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1140,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1141,Yes,~1 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1142,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1143,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1144,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1145,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1146,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1147,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1148,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1149,Yes,~3 per week,"151-200:
+Unhealthy","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 115,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 115,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1152,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1153,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1154,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 1155,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 1156,Yes,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1157,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1158,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1159,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 116,No,~1-3 per month,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 116,Yes,~1 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 1161,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1162,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1163,No,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 1164,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1165,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1166,Yes,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 1167,No,Daily,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 1168,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1169,Yes,~1 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 117,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1170,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1171,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 1172,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1174,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1175,Yes,~1-3 per summer,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1176,No,~1-3 per summer,I am not familiar with this rating,I am not familiar with this rating
+Participant 1177,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1178,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1179,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 118,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1180,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 1181,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1182,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1183,Yes,~1 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1184,Yes,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 1185,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1186,No,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1187,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1188,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 119,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1190,Yes,Daily,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 1191,No,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1194,Yes,~1-3 per summer,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1195,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1196,Yes,~1-3 per summer,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1197,Yes,~1 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 1198,Yes,~1 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 12,No,Daily,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 12,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 120,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1201,Yes,Daily,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 1202,No,~1-3 per summer,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 1203,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1204,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1205,No,~1-3 per month,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1206,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1208,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 121,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 121,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1210,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1211,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1212,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1213,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1215,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1217,Yes,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1218,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 1219,Yes,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 122,Yes,Daily,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 122,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1220,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1221,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 1222,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1223,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1224,No,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 1225,Yes,~1 per week,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 1226,No,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1227,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1228,No,~1-3 per month,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1229,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 123,No,~1-3 per month,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 1231,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 1232,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1233,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1234,Yes,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 1235,Yes,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1236,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1237,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1238,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 124,Yes,~1 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 124,Yes,~1-3 per summer,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1240,No,~1-3 per summer,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1241,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1242,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1243,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1245,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1246,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1247,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1248,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1249,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 125,No,~1 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1250,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1251,No,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 1252,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1254,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1255,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1256,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","51-100:
+Moderate"
+Participant 1257,Yes,~1 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1258,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1259,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 126,No,~3 per week,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 126,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1260,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1261,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1262,Yes,~1 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1263,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1264,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1267,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1268,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1269,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 127,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 127,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1270,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1271,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1272,No,~1 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 1273,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1274,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1276,No,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 1277,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1278,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 128,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1280,No,~3 per week,"151-200:
+Unhealthy","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1284,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1287,Yes,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 1288,Yes,~1-3 per summer,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 129,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1296,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1297,Yes,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 13,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 13,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 130,No,~1-3 per summer,I am not familiar with this rating,I am not familiar with this rating
+Participant 130,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1300,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1301,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1304,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1308,Yes,~3 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 1309,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","51-100:
+Moderate"
+Participant 131,Yes,~3 per week,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 131,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1310,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1314,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1315,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1317,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1318,Yes,~1-3 per summer,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1319,Yes,~3 per week,"51-100:
+Moderate","151-200:
+Unhealthy"
+Participant 132,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 132,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1320,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1321,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1322,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 1325,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1326,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1327,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1329,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 133,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1331,No,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1335,Yes,~1-3 per summer,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1339,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 134,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 134,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1341,No,~1 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 1342,Yes,Daily,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 1343,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1344,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1346,Yes,Daily,"151-200:
+Unhealthy","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1347,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1349,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 135,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1351,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1352,Yes,~1 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 1353,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1355,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1357,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1359,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 136,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 136,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1361,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1362,No,~1-3 per month,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 1363,No,Daily,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 1364,No,~1 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 1365,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1366,Yes,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 1367,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1368,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1369,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 137,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 137,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1370,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1371,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1372,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1373,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1374,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1375,Yes,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1376,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1377,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1378,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1379,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 138,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 138,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 1380,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1381,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1382,No,Daily,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 1383,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1384,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1385,No,Daily,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 1386,Yes,~1-3 per summer,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1387,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1388,Yes,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1389,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 139,No,~1-3 per summer,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 139,No,Daily,"201-300:
+Very Unhealthy","151-200:
+Unhealthy"
+Participant 1390,No,~3 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 1391,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1392,No,~1-3 per summer,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1393,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1394,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1395,No,~1 per week,"201-300:
+Very Unhealthy","151-200:
+Unhealthy"
+Participant 1396,Yes,~3 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 1397,Yes,~3 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 1398,Yes,~1-3 per month,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1399,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 14,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 14,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 140,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 140,Yes,~1-3 per summer,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1402,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1403,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1405,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1406,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1407,Yes,~1-3 per month,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1408,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 1409,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 141,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 141,Yes,Daily,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 1410,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1411,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","301+:
+Hazardous"
+Participant 1412,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1413,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1414,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1415,No,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1416,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1417,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 1418,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1419,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 142,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 142,Yes,~1-3 per summer,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1420,Yes,~3 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 1421,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1423,No,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1424,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1425,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1426,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1427,Yes,~3 per week,"151-200:
+Unhealthy","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1428,Yes,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 1429,Yes,~1-3 per month,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 143,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1430,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1431,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1432,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1433,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1434,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1435,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1436,No,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1437,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1438,Yes,~1-3 per month,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1439,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 144,No,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 1440,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1442,Yes,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 1443,Yes,~3 per week,"51-100:
+Moderate","151-200:
+Unhealthy"
+Participant 1444,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1445,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1446,No,~3 per week,"51-100:
+Moderate","151-200:
+Unhealthy"
+Participant 1447,Yes,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 1449,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 145,No,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 145,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1451,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1452,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1453,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1454,No,Daily,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 1455,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1456,Yes,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 1457,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1458,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1459,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 146,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1460,No,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1461,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1462,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1463,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1464,Yes,~1 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1466,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1468,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1469,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 147,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 147,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1470,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1471,No,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1472,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 1473,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1474,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1475,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1477,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1478,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1479,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 148,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 148,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1480,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1481,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1482,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1483,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1484,No,~3 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 1485,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 1486,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1487,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1488,No,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1489,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 149,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 149,Yes,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1490,Yes,~1 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1491,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 1492,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1493,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1494,Yes,~3 per week,I am not familiar with this rating,"101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1495,No,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 1496,No,~1-3 per summer,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1497,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1499,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 15,No,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 15,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 150,No,~1-3 per month,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 150,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1500,Yes,~3 per week,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 1501,Yes,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 1502,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1503,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1504,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1505,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1506,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1507,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1508,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 1509,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 151,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 151,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1510,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1512,Yes,Daily,"201-300:
+Very Unhealthy","151-200:
+Unhealthy"
+Participant 1513,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1514,Yes,~1 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 1515,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1516,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1517,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1518,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1519,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 152,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1522,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1523,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1525,Yes,~1-3 per summer,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1526,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1527,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1529,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 153,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 153,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1530,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1531,No,Daily,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 1533,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1534,Yes,~3 per week,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 1535,No,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1536,Yes,~3 per week,"151-200:
+Unhealthy","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1537,No,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1539,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 154,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1540,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1542,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1543,No,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1544,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1545,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1546,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1547,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1548,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 155,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 155,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1550,No,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 1551,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1553,No,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1555,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1557,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1558,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1559,Yes,~3 per week,"51-100:
+Moderate","151-200:
+Unhealthy"
+Participant 156,Yes,~1 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 156,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1560,No,~1-3 per summer,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1561,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1562,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1563,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1564,No,~1-3 per summer,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 1565,Yes,~1 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1566,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1567,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1568,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1569,No,~3 per week,I am not familiar with this rating,"101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1571,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1572,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1573,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1574,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1575,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1577,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 1578,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1579,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 158,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 158,Yes,~1-3 per summer,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1580,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 1582,Yes,~1-3 per month,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1583,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1584,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1585,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1588,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 159,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 159,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1590,Yes,~1 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1591,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1592,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1593,Yes,~1 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1594,Yes,Daily,"0-50:
+Good","51-100:
+Moderate"
+Participant 1595,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1596,Yes,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1598,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1599,Yes,~3 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 16,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 16,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 160,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 160,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1602,Yes,~3 per week,"51-100:
+Moderate","151-200:
+Unhealthy"
+Participant 1603,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1604,Yes,~1-3 per summer,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1605,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1606,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1608,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1609,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 161,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 161,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1610,No,Daily,"201-300:
+Very Unhealthy","151-200:
+Unhealthy"
+Participant 1611,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1612,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1613,Yes,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 1614,No,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 1615,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1616,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1617,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1618,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1619,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 162,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 162,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1621,Yes,~1-3 per summer,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1622,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1623,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1625,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1628,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 163,Yes,~1-3 per month,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 163,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1631,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1632,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1634,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1635,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1636,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1637,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1638,Yes,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 1639,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 164,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 164,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1640,Yes,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1641,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1642,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1643,Yes,Daily,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 1644,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1646,Yes,~3 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 1647,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1648,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1649,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 165,No,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1650,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1653,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1654,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1655,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1657,Yes,~3 per week,"201-300:
+Very Unhealthy","151-200:
+Unhealthy"
+Participant 1658,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1659,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 166,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1660,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1661,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1662,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1663,Yes,~1-3 per summer,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1664,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1665,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1667,Yes,Daily,"51-100:
+Moderate","151-200:
+Unhealthy"
+Participant 1669,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 167,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 167,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1670,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1671,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1672,No,~1-3 per month,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1673,Yes,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 1674,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1675,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1676,No,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1677,No,~1-3 per month,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1679,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 168,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 168,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1680,Yes,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1681,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1682,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1683,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1684,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 1685,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1688,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 169,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 169,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 1691,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1694,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 17,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 1701,No,Daily,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 171,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 171,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 1710,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1713,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 1717,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 172,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 172,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1721,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1723,No,Daily,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 1724,Yes,~1-3 per summer,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 173,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1734,Yes,Daily,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 1736,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 1737,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1738,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 174,No,~1-3 per month,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 174,No,~1-3 per month,"51-100:
+Moderate","151-200:
+Unhealthy"
+Participant 1740,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 1741,Yes,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1742,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 1743,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1744,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 1746,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 175,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 175,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 176,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 176,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 177,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 177,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 178,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 179,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 18,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 18,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 180,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 180,No,~1-3 per summer,I am not familiar with this rating,I am not familiar with this rating
+Participant 181,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 181,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 182,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 182,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 183,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 184,No,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 185,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 186,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 186,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 187,Yes,~1-3 per month,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 188,No,Daily,"201-300:
+Very Unhealthy","151-200:
+Unhealthy"
+Participant 188,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 189,Yes,~3 per week,"151-200:
+Unhealthy","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 189,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 19,No,Never,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 19,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 190,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 191,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 192,No,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 192,Yes,~1 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 193,No,~1 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 193,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 195,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 195,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 196,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 196,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 197,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 197,Yes,~3 per week,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 198,No,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 198,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 199,No,~1-3 per summer,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 199,Yes,~3 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 2,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 2,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 20,Yes,~1-3 per summer,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 20,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 200,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 200,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 201,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 201,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 202,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 202,No,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 203,No,~1 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 203,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 204,Yes,~1 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 204,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 205,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 205,No,~3 per week,"301+:
+Hazardous","201-300:
+Very Unhealthy"
+Participant 206,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 206,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 207,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 207,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 208,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 209,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 21,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 21,Yes,~1 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 210,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 210,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 211,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 212,No,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 212,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 213,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 213,No,~1-3 per summer,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 214,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 214,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 215,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 215,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 216,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 216,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 217,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 217,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 218,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 218,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 219,No,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 219,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 22,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 22,Yes,~1 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 220,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 221,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 221,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 222,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 222,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 223,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 223,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 224,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 224,No,~1 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 225,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 225,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 227,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 227,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 228,Yes,Daily,"151-200:
+Unhealthy","51-100:
+Moderate"
+Participant 229,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 229,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","51-100:
+Moderate"
+Participant 23,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 23,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 230,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 231,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 231,Yes,~1-3 per summer,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 232,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 232,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 233,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 233,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 234,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 234,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 235,Yes,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 235,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 236,Yes,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 236,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 237,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 237,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 238,No,~1-3 per month,I am not familiar with this rating,I am not familiar with this rating
+Participant 238,Yes,Daily,"51-100:
+Moderate","151-200:
+Unhealthy"
+Participant 239,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 239,No,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 24,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 240,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 241,Yes,~1-3 per month,I am not familiar with this rating,I am not familiar with this rating
+Participant 241,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 242,No,~1 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 242,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 243,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 243,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 244,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 244,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 245,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 245,Yes,Daily,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 246,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 247,No,~1 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 247,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 248,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 248,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 249,No,~3 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 249,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 25,No,~1-3 per summer,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 25,Yes,~1-3 per month,I am not familiar with this rating,I am not familiar with this rating
+Participant 250,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 250,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 251,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 251,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 252,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 252,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 253,Yes,~1-3 per summer,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 254,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 254,Yes,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 255,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","51-100:
+Moderate"
+Participant 255,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 256,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 257,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 257,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 258,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 258,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 259,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 259,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 26,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 26,Yes,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 260,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 261,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 261,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 262,No,~1 per week,"151-200:
+Unhealthy","0-50:
+Good"
+Participant 263,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 264,No,Daily,"0-50:
+Good","0-50:
+Good"
+Participant 264,Yes,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 265,No,~3 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 265,Yes,Daily,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 266,No,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 266,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 267,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 268,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 268,Yes,~1-3 per summer,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 269,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 269,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 27,Yes,Daily,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 27,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 270,Yes,~3 per week,"0-50:
+Good","0-50:
+Good"
+Participant 270,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 271,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 271,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 272,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 272,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 273,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 273,Yes,Daily,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 274,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 275,No,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 275,Yes,Daily,"151-200:
+Unhealthy","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 276,Yes,~3 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 276,Yes,Daily,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 277,No,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 277,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 278,No,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 278,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 279,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 28,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 280,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 280,No,~1-3 per summer,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 281,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 282,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 282,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 283,Yes,~3 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 283,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 284,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 284,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 285,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 286,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 286,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 287,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 287,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 288,Yes,~1 per week,"0-50:
+Good","51-100:
+Moderate"
+Participant 288,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 289,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 29,Yes,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 29,No,Daily,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 290,No,~1 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 290,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 291,No,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 291,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 292,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 293,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 293,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 294,Yes,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 294,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 295,Yes,~3 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 295,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 296,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 296,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 297,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 297,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 298,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 299,No,Daily,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 3,Yes,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 3,No,~1-3 per month,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 30,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 30,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 300,No,Daily,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 300,Yes,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 301,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 301,Yes,~3 per week,"201-300:
+Very Unhealthy","151-200:
+Unhealthy"
+Participant 302,Yes,~1 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 302,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 303,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 304,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 304,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 305,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 306,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 306,Yes,~3 per week,"51-100:
+Moderate","151-200:
+Unhealthy"
+Participant 307,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 307,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 308,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 308,No,~1-3 per summer,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 309,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 309,Yes,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 31,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 31,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 310,Yes,~1-3 per summer,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 310,Yes,~1-3 per month,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 311,Yes,Daily,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 311,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 312,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 312,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 313,No,~1-3 per month,"201-300:
+Very Unhealthy","151-200:
+Unhealthy"
+Participant 313,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 314,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 315,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 316,No,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 316,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 317,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 317,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 318,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 318,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 319,No,~1-3 per month,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 32,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 32,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 320,No,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 320,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 321,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 321,Yes,~1-3 per summer,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 322,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 322,Yes,~3 per week,"51-100:
+Moderate","151-200:
+Unhealthy"
+Participant 323,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 324,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 324,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 325,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 326,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 327,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 328,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","301+:
+Hazardous"
+Participant 328,Yes,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 329,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 33,No,~1 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 33,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 330,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 331,Yes,~3 per week,"151-200:
+Unhealthy","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 331,Yes,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 332,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 332,Yes,~1-3 per summer,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 333,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 333,Yes,~1 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 334,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 334,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 335,No,~1 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 336,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 336,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 337,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 337,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 338,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 339,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 34,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 34,Yes,~1-3 per summer,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 340,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 340,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 341,No,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 341,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 342,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 342,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 343,Yes,~1 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 343,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 344,No,~1-3 per month,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 344,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 345,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 345,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 346,No,~1-3 per month,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 346,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 347,Yes,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 348,No,~1 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 348,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 349,Yes,~1 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 349,No,~3 per week,I am not familiar with this rating,"301+:
+Hazardous"
+Participant 35,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 35,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 350,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 350,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 351,No,Daily,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 351,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 352,Yes,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 352,Yes,~1 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 353,Yes,Daily,"51-100:
+Moderate","151-200:
+Unhealthy"
+Participant 353,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 354,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 354,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 355,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 355,No,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 356,No,Daily,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 356,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 357,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 357,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 358,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 358,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 359,Yes,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 359,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 36,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","301+:
+Hazardous"
+Participant 36,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 360,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 360,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 361,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 362,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 362,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 363,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 363,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 364,No,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 364,Yes,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 365,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 366,No,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 366,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 367,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 367,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 368,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 368,Yes,~1-3 per month,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 369,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 37,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 37,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 370,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 370,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 371,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 371,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 372,Yes,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 372,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 373,No,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 373,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 374,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 374,Yes,~3 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 375,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 375,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 376,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 378,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 378,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 379,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 38,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 38,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 380,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 381,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 381,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 382,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 382,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 383,No,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 383,Yes,~1 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 384,No,Daily,"201-300:
+Very Unhealthy","151-200:
+Unhealthy"
+Participant 384,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 385,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 385,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 386,No,~1 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 386,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 387,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 387,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 388,No,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 389,No,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 389,No,~1 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 39,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 39,Yes,~1-3 per month,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 390,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 391,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 391,Yes,~1-3 per summer,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 392,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 392,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 393,No,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 393,Yes,~1 per week,"51-100:
+Moderate","151-200:
+Unhealthy"
+Participant 394,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 394,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 395,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 395,Yes,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 396,No,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 396,Yes,~1 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 397,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 397,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 398,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 398,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 399,No,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 399,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 4,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 40,No,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 40,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 400,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 401,Yes,Daily,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 401,Yes,~3 per week,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 402,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 402,Yes,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 403,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 403,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 404,Yes,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 404,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 405,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 405,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 406,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 406,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 407,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 407,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 408,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","51-100:
+Moderate"
+Participant 408,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 409,Yes,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 409,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 41,Yes,~1 per week,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 41,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 410,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 410,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 411,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 411,No,~3 per week,"201-300:
+Very Unhealthy","151-200:
+Unhealthy"
+Participant 412,Yes,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 412,No,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 413,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 413,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 414,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 414,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 415,No,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 415,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 416,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 416,No,~1-3 per month,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 417,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 418,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 418,No,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 419,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 42,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 42,Yes,~1-3 per summer,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 420,Yes,~3 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 420,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 421,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 421,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 422,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 422,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 423,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 423,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 425,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 425,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 426,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 427,Yes,~1-3 per summer,"101-150:
+Unhealthy for
+ Sensitive Grps.","51-100:
+Moderate"
+Participant 427,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 428,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 429,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 43,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 430,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 431,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 431,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 432,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 432,Yes,~3 per week,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 433,No,~1 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 433,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 434,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 434,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 435,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 436,No,Daily,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 436,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 437,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 437,No,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 438,Yes,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 438,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 439,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 439,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 44,No,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 44,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 440,No,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 441,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 441,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 442,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 442,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 443,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 443,Yes,~3 per week,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 444,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 444,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 445,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 446,No,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 446,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 447,No,~3 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 447,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 448,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 448,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 449,No,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 449,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 45,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 45,Yes,~1-3 per month,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 450,Yes,~1 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 451,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 451,Yes,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 452,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 452,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 453,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 453,No,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 454,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 454,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 455,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 455,No,~1-3 per month,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 456,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 456,Yes,~3 per week,"151-200:
+Unhealthy",I am not familiar with this rating
+Participant 457,No,~1 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 457,No,~1-3 per month,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 458,No,~1 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 458,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 459,No,~1 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 459,Yes,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 46,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 460,Yes,~1 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 460,Yes,~1-3 per month,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 461,No,~3 per week,"51-100:
+Moderate","301+:
+Hazardous"
+Participant 461,No,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 462,No,~1-3 per summer,"301+:
+Hazardous","151-200:
+Unhealthy"
+Participant 462,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 463,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 463,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 464,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 464,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 465,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 465,Yes,~1-3 per summer,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 466,Yes,~1-3 per month,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 466,Yes,~1-3 per summer,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 467,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 467,Yes,Daily,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 468,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 468,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 469,No,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 469,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 47,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 47,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 470,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 470,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 471,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 472,No,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 472,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 473,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 473,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 474,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 474,Yes,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 475,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 475,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 476,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 476,No,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 477,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 478,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 478,No,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 479,Yes,~3 per week,"201-300:
+Very Unhealthy","151-200:
+Unhealthy"
+Participant 479,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 48,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 48,Yes,~1-3 per month,I am not familiar with this rating,I am not familiar with this rating
+Participant 480,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 480,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 481,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 481,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 482,No,Daily,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 482,Yes,~3 per week,"151-200:
+Unhealthy","51-100:
+Moderate"
+Participant 483,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 483,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 484,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 484,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 485,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 486,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 486,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 487,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 488,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 488,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 489,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 489,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 49,Yes,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 49,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 490,No,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 490,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 491,Yes,~3 per week,"51-100:
+Moderate","151-200:
+Unhealthy"
+Participant 491,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 492,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","301+:
+Hazardous"
+Participant 492,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 493,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 493,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 494,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 494,Yes,~3 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 495,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 496,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 496,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 497,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 497,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 498,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 498,No,~1-3 per summer,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 499,Yes,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 499,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 5,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 5,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 50,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","0-50:
+Good"
+Participant 50,No,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 500,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 500,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 501,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 502,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 502,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 503,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 503,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 504,No,~1 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 504,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 505,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 505,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 506,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 506,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 507,Yes,~1-3 per month,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 507,Yes,~3 per week,"151-200:
+Unhealthy","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 508,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 508,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 509,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 509,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 51,Yes,Daily,"151-200:
+Unhealthy","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 51,Yes,~3 per week,"151-200:
+Unhealthy","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 510,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 510,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 511,Yes,~1 per week,"51-100:
+Moderate","151-200:
+Unhealthy"
+Participant 512,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 512,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 513,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 513,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 514,Yes,~1 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 514,No,~1-3 per month,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 515,Yes,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 515,Yes,~3 per week,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 517,No,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 518,Yes,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 519,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 52,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 520,No,~1-3 per month,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 520,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 521,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 521,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 522,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 522,No,~1 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 523,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 523,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 524,Yes,~3 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 524,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 526,Yes,~1 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 526,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 527,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 527,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 528,Yes,~1-3 per month,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 528,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 529,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 529,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 53,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 53,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 530,No,~1-3 per month,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 530,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 531,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 532,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 532,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 533,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 535,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 535,Yes,~3 per week,"51-100:
+Moderate","151-200:
+Unhealthy"
+Participant 536,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 536,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 537,Yes,~3 per week,"51-100:
+Moderate","151-200:
+Unhealthy"
+Participant 537,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 538,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 539,No,~1 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 539,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 54,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 540,Yes,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 540,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 541,Yes,Daily,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 542,No,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 542,Yes,~3 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 543,No,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 543,Yes,~1 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 544,No,~1 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 545,Yes,Daily,"51-100:
+Moderate","0-50:
+Good"
+Participant 546,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 546,Yes,~1-3 per month,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 547,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 548,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 549,Yes,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 55,Yes,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 55,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 550,No,~3 per week,"51-100:
+Moderate",I am not familiar with this rating
+Participant 551,Yes,~1 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 551,Yes,~1-3 per summer,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 552,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 552,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 553,No,~1 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 553,Yes,Daily,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 554,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 554,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 555,Yes,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 555,Yes,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 556,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 557,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 557,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 558,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 559,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 56,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 56,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 560,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 561,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 562,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 562,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 563,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 563,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 564,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 564,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 565,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 565,Yes,~1 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 566,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 566,Yes,~1-3 per summer,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 567,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 567,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 568,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 569,Yes,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 569,Yes,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 57,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 570,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 570,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 571,Yes,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 571,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 572,No,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 573,Yes,~1 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 573,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 574,No,~3 per week,I am not familiar with this rating,"51-100:
+Moderate"
+Participant 574,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 575,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","51-100:
+Moderate"
+Participant 575,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 576,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 577,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 577,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 578,Yes,~1 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 578,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 579,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 579,Yes,~1 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 58,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 58,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 581,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 582,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 582,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 583,No,Daily,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 583,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 584,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 584,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 585,No,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 585,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 586,No,~1-3 per month,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 586,Yes,~3 per week,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 587,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 588,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 588,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 589,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 59,Yes,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 59,No,~1-3 per summer,I am not familiar with this rating,I am not familiar with this rating
+Participant 590,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 591,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 591,Yes,~3 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 592,Yes,~1 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 592,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 593,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 593,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 594,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 595,No,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 595,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 596,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 597,No,~1-3 per month,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 597,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 598,No,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 598,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 599,Yes,~3 per week,"151-200:
+Unhealthy","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 599,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 6,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 6,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 60,No,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 60,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 600,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 600,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 601,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 601,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 602,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 603,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 603,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 604,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 604,No,~1-3 per month,I am not familiar with this rating,I am not familiar with this rating
+Participant 605,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 606,No,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 606,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 607,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 607,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 608,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 609,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 609,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 61,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 61,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 610,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 610,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 611,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 611,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 612,Yes,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 612,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 613,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 613,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 614,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 615,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 616,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 617,Yes,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 618,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 619,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 62,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 620,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 621,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 622,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 624,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 626,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 627,Yes,~1-3 per summer,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 628,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 629,Yes,~3 per week,"51-100:
+Moderate","151-200:
+Unhealthy"
+Participant 63,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 63,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 630,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 631,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 632,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 633,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 634,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 635,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 636,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 637,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 638,Yes,~1-3 per summer,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 639,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 64,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 640,No,~1-3 per summer,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 643,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 644,Yes,Daily,"201-300:
+Very Unhealthy","151-200:
+Unhealthy"
+Participant 645,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 646,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 647,No,~1 per week,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 648,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 649,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 65,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 65,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 650,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 651,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 653,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 654,No,~1 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 655,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 656,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 657,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 658,Yes,~1-3 per summer,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 659,No,Daily,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 66,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 66,No,~1-3 per month,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 660,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 661,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 662,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 663,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 664,No,~1-3 per month,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 665,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 666,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 667,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 668,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 669,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 67,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 67,Yes,~3 per week,"151-200:
+Unhealthy","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 670,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 671,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 672,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 673,Yes,Daily,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 675,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 676,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 677,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 678,No,~1-3 per month,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 679,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 68,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 68,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 680,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 681,Yes,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 682,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 683,No,~1 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 684,Yes,~1-3 per summer,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 685,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 686,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 687,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 689,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 69,Yes,Daily,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 69,No,~1 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 690,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 692,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 693,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 694,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 695,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 696,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 697,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 698,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 699,Yes,~1 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 7,Yes,~1 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 7,Yes,~1 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 70,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 70,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 700,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 703,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 704,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 705,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 706,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 707,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 708,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 709,No,~1-3 per month,I am not familiar with this rating,I am not familiar with this rating
+Participant 71,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 71,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 710,Yes,Daily,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 711,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 712,Yes,Daily,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 713,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 714,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 715,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 716,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 717,Yes,~1 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 718,Yes,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 719,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 72,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 72,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 721,Yes,Daily,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 722,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 723,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 724,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 725,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 726,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 727,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 729,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 73,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 73,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 730,No,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 731,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 732,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 736,No,~1-3 per month,I am not familiar with this rating,I am not familiar with this rating
+Participant 737,Yes,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 738,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 739,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 74,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 74,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 740,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 741,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 742,Yes,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 743,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 744,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 746,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 747,No,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 748,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 749,No,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 75,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 75,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 750,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 751,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 752,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 753,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 754,No,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 755,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 756,No,Daily,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 757,Yes,~1 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 758,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 759,Yes,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 76,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 76,Yes,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 761,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 762,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 763,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 764,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 765,Yes,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 766,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 767,Yes,Daily,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 768,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 769,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 77,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 77,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 770,No,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 771,Yes,~1 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 772,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 773,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 774,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 775,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 776,Yes,~3 per week,"51-100:
+Moderate","151-200:
+Unhealthy"
+Participant 777,No,~1-3 per month,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 778,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 779,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 78,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 78,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 780,No,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 782,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 783,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 784,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 785,Yes,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 787,Yes,~1-3 per month,"51-100:
+Moderate","151-200:
+Unhealthy"
+Participant 788,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 79,Yes,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 79,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 790,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 791,No,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 792,Yes,~1 per week,"51-100:
+Moderate","151-200:
+Unhealthy"
+Participant 793,No,~3 per week,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 794,No,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 795,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 796,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 797,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 798,Yes,Daily,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 799,Yes,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 8,No,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 8,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 80,Yes,~1 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 80,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 800,Yes,Daily,"201-300:
+Very Unhealthy","151-200:
+Unhealthy"
+Participant 801,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 802,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 803,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 804,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 806,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 807,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 808,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 809,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 81,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 810,Yes,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 812,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 813,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 814,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 815,No,~1-3 per month,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 816,Yes,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 817,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 819,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 82,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 82,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 822,Yes,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 823,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 824,Yes,~1 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 826,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 827,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 829,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 83,No,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 83,Yes,~1 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 830,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 831,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 833,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 834,Yes,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 836,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 837,Yes,~1 per week,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 838,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 84,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 840,Yes,Daily,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 841,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 842,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 843,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 844,Yes,~3 per week,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 845,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 846,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 847,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 848,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 849,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 85,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 85,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 850,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 851,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 852,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 854,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 855,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 856,No,Daily,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 857,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 858,Yes,~3 per week,"201-300:
+Very Unhealthy","151-200:
+Unhealthy"
+Participant 859,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","301+:
+Hazardous"
+Participant 86,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 86,Yes,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 860,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 861,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 862,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 863,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 864,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 865,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 866,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 867,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 868,Yes,~1 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 869,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 87,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 87,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 870,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 872,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 873,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 874,Yes,~3 per week,I am not familiar with this rating,I am not familiar with this rating
+Participant 875,No,~1-3 per month,I am not familiar with this rating,I am not familiar with this rating
+Participant 876,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 877,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 878,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 879,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 88,Yes,~3 per week,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 88,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 880,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 881,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 882,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 885,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 886,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 887,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 888,No,Daily,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 889,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 89,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 89,Yes,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 890,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 891,Yes,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 892,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 893,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 894,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 895,No,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 896,No,~1-3 per month,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 897,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 898,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 899,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 9,Yes,~1-3 per month,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 9,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 90,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 90,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 900,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 901,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 902,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 903,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 904,Yes,~1 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 905,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 906,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 907,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 908,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 909,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 91,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 91,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 910,Yes,~1-3 per month,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 911,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 912,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 913,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 914,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 915,Yes,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 916,Yes,~3 per week,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 917,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 918,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 919,Yes,~3 per week,"151-200:
+Unhealthy","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 92,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 920,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 921,No,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 922,Yes,~1-3 per summer,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 923,Yes,~1-3 per summer,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 924,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 925,No,Daily,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 926,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 927,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 928,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 929,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 93,Yes,~3 per week,"51-100:
+Moderate","151-200:
+Unhealthy"
+Participant 93,Yes,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 930,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 931,No,Daily,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 932,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 933,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 934,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 935,No,~1 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 936,Yes,~1-3 per month,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 937,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 938,No,Daily,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 939,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 94,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 94,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 940,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 941,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 942,Yes,Daily,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 943,Yes,Daily,"51-100:
+Moderate","151-200:
+Unhealthy"
+Participant 944,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 945,No,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 947,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 948,No,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 949,Yes,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 95,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","201-300:
+Very Unhealthy"
+Participant 95,Yes,Daily,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 950,Yes,~1 per week,"51-100:
+Moderate","51-100:
+Moderate"
+Participant 951,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 952,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 953,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 954,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 956,Yes,~3 per week,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 957,No,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 958,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 959,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 96,No,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 96,Yes,~1 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 960,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 961,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 962,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 963,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 964,No,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 965,No,~1-3 per month,"301+:
+Hazardous","201-300:
+Very Unhealthy"
+Participant 966,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 967,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 968,Yes,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 969,Yes,Daily,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 97,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 97,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 970,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 971,Yes,~3 per week,"301+:
+Hazardous","301+:
+Hazardous"
+Participant 972,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 974,No,Daily,"151-200:
+Unhealthy","301+:
+Hazardous"
+Participant 975,Yes,~1-3 per summer,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 976,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 977,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 978,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 979,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 98,No,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 98,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 980,No,~1-3 per month,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 981,No,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 982,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 983,Yes,~1 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 984,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 985,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 986,Yes,~3 per week,"151-200:
+Unhealthy","201-300:
+Very Unhealthy"
+Participant 987,Yes,~3 per week,"151-200:
+Unhealthy","151-200:
+Unhealthy"
+Participant 988,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 989,No,Daily,"201-300:
+Very Unhealthy","201-300:
+Very Unhealthy"
+Participant 99,No,Daily,I am not familiar with this rating,I am not familiar with this rating
+Participant 99,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 991,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 992,Yes,~3 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 993,Yes,Daily,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 994,Yes,Daily,"51-100:
+Moderate","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 995,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","101-150:
+Unhealthy for
+ Sensitive Grps."
+Participant 997,No,~3 per week,"201-300:
+Very Unhealthy","301+:
+Hazardous"
+Participant 998,Yes,~1 per week,"101-150:
+Unhealthy for
+ Sensitive Grps.","151-200:
+Unhealthy"
+Participant 999,No,Daily,I am not familiar with this rating,I am not familiar with this rating
