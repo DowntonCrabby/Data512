@@ -10,19 +10,19 @@ The findings are intended to inform policymakers, city planners, and community s
 
 ## Repository Structure
 
-**Overview**
+### Overview
+This represents the main structure of the repo. 
+Each of these folders has it's own readme.md that provide more specific information about the files and notebooks found within.
 
-```plaintext
-/Data Acquisition and Cleaning/
+**Provided Resources**
+    - Project and assignment instructions and provided code
+**Data Acquisition and Cleaning**
     - Scripts and data for retrieving and cleaning source datasets.
-/Data Analysis and Modeling/
+**Data Analysis and Modeling**
     - Notebooks and intermediate outputs for smoke impact modeling.
-/Results and Presentation/
+**Results and Presentation**
     - Final results, visualizations, and project presentations.
-/MIT License.md
-    - Licensing details for this project.
-```
-Each of these folders has it's own readme.md that provide more information about the files and notebooks found within.
+
 
 ## Data Sources
 This project uses the following data sources:
@@ -36,9 +36,10 @@ This project uses the following data sources:
       - `Wildland_Fire_Polygon_Metadata.xml`
 - **AQI Data**: EPA Air Quality System API ([AirNow](https://www.airnow.gov/))
   - Description: Air Quality Index data for historical and current pollution levels.
-  - 
+    
 - **Behavioral Survey Data**: [Survey Dataset](link-placeholder)
   - Description: Self-reported activity changes in response to air quality conditions.
+
 - **Florida State Parks Data**:
   - Description: Park attendance and revenue data for analyzing economic impacts.
 
