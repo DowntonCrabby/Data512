@@ -1,4 +1,4 @@
-# Wildland Fire Combined Dataset Documentation
+# Source Data Acquisition and Documentation
 
 ## Overview
 
