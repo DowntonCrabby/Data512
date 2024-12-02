@@ -14,13 +14,13 @@ The findings are intended to inform policymakers, city planners, and community s
 This represents the main structure of the repo. 
 Each of these folders has it's own readme.md that provide more specific information about the files and notebooks found within.
 
-**Provided Resources**
+- **Provided Resources**
     - Project and assignment instructions and provided code
-**Data Acquisition and Cleaning**
+- **Data Acquisition and Cleaning**
     - Scripts and data for retrieving and cleaning source datasets.
-**Data Analysis and Modeling**
+- **Data Analysis and Modeling**
     - Notebooks and intermediate outputs for smoke impact modeling.
-**Results and Presentation**
+- **Results and Presentation**
     - Final results, visualizations, and project presentations.
 
 
@@ -36,12 +36,17 @@ This project uses the following data sources:
       - `Wildland_Fire_Polygon_Metadata.xml`
 - **AQI Data**: EPA Air Quality System API ([AirNow](https://www.airnow.gov/))
   - Description: Air Quality Index data for historical and current pollution levels.
-    
-- **Behavioral Survey Data**: [Survey Dataset](link-placeholder)
-  - Description: Self-reported activity changes in response to air quality conditions.
 
-- **Florida State Parks Data**:
-  - Description: Park attendance and revenue data for analyzing economic impacts.
+- **Behavioral Survey Data**: [Fowler et al., 2019 - Human Perception of and Response to Wildfire Smoke](https://www.nature.com/articles/s41597-019-0251-y)
+  - Description: A dataset surveying 2,237 participants across the Boise Metropolitan Area in Idaho, including in-person and online responses. This dataset explores human behavior in response to wildfire smoke events, covering topics such as outdoor activity reduction, air quality awareness, health impacts, and effective communication strategies during smoke events. The data is publicly available under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+  - The data can be downloaded [here](https://springernature.figshare.com/collections/A_Dataset_on_Human_Response_to_Wildfire_Smoke/4316795), but is also already downloaded and shared in this repo. 
+
+- **Florida State Parks Data**: [Economic Impact Assessment Report, 2023](https://www.dep.state.fl.us/)
+  - Description: The Florida State Parks Economic Impact Assessment (2022-2023) quantifies the economic contributions of state parks and greenways in Florida. The report includes detailed data on annual park attendance, visitor spending, state revenue from sales tax, and local job support. For example:
+    - Annual attendance: Over 28.7 million visitors in FY 2022/2023.
+    - Economic impact: $3.6 billion in direct economic contributions and over 50,427 jobs supported statewide.
+    - Methodology: Uses models from the National Park Service and VISIT FLORIDA to estimate local economic benefits, including visitor expenditures on lodging, food, and transportation.
+    - Accessibility: The data is available as part of the Florida Department of Environmental Protection's public records.
 
  ## Instructions to Run
 
