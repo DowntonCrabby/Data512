@@ -66,3 +66,35 @@ Follow these steps to replicate the analysis:
    `jupyter notebook Fire_Smoke_Model.ipynb`
 
 6. **View Results:** Generated outputs, visualizations, and final results and presentation are located in `/Results and Presentation/`
+
+
+---
+
+### **Known Issues**
+
+- **Survey Data Generalization**:
+  The behavioral survey data was collected in Boise, Idaho. While assumptions are made to apply this data to Tallahassee, differences in climate, wildfire exposure, and population behavior may affect accuracy.
+
+- **AQI Data Gaps**:
+  AQI data availability varies across years, with some gaps in historical data for certain locations.
+
+- **Model Assumptions**:
+  The predictive model assumes linear relationships between smoke impacts and attendance reductions, which may oversimplify complex human behaviors.
+
+- **Data Licensing**:
+  The terms of use for public datasets must be followed. Refer to the respective sources for specific restrictions.
+
+
+## Licensing and Use
+
+This project is licensed under the MIT License. For details, see the `MIT License.md` file. All datasets used are publicly available, with attribution to their respective providers:
+- USGS Wildland Fire Combined Dataset ([ScienceBase](https://www.sciencebase.gov/catalog/item/61aa537dd34eb622f699df81)).
+- EPA Air Quality System API ([AirNow](https://www.airnow.gov/)).
+- Survey and park data from respective sources.
+
+## Acknowledgments
+
+Special thanks to:
+- The US Geological Survey and EPA for providing essential datasets.
+- Course instructors and collaborators for guidance and resources.
+- Dr. David W. McDonald for code examples used as a foundation for this project, provided under the Creative Commons CC-BY license.
