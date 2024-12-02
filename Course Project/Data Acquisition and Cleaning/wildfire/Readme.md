@@ -1,20 +1,13 @@
-# Wildfire Smoke Impact Analysis Project
+# Wildfire Data Cleaning and Distances Calculation
+We are using the dataset to pull information on fires that are within 650 miles of  **Tallahassee, Florida**, over the most recent 60 years of wildfire data (1961-2021). We use the Combined Wildland Fire datasets provided by the US Geological Survey, supplemented by air quality data from the US EPA, to develop insights into the potential effects of wildfires on air quality.
+## folder Structure
+-**main folder/**: python files that do the data acquisition and/or data cleaning
+- **created files/**: Folder containing the csvs that were created during the execution of the notebooks.
 
-## Project Overview
+## Input Data Wildfire Data
+The dataset was created by the USGS and is available on [ScienceBase](https://www.sciencebase.gov/catalog/item/61aa537dd34eb622f699df81).
 
-This repository is part of a course project focusing on the analysis of wildfire smoke impacts on US cities. The goal of the project is to estimate the annual impact of wildfire smoke on a specific city, understand the broader implications, and eventually inform policy makers on potential mitigation strategies. This project is conducted in multiple parts, with this repository documenting **Part 1 - Common Analysis**, where all students analyze wildfire impacts with a focus on individual cities assigned to them.
-
-In Part 1, we estimate the annual wildfire smoke impact on our assigned city, **Tallahassee, Florida**, over the most recent 60 years of wildfire data (1961-2021). We use the Combined Wildland Fire datasets provided by the US Geological Survey, supplemented by air quality data from the US EPA, to develop insights into the potential effects of wildfires on air quality.
-
-# Dataset Information
-
-## Wildfire Data
-This repository contains a subset of data and metadata files from a comprehensive geospatial dataset on wildland fires across the United States. The dataset was created by the USGS and is available on [ScienceBase](https://www.sciencebase.gov/catalog/item/61aa537dd34eb622f699df81).
-
-These datasets were created by combining 40 different, published wildland fire data sources. Each data source varies in spatial scale, spatial resolution, and time period. The purpose of this combined dataset is to merge these disparate wildfire datasets, using a unified set of attributes, into a single set of polygons with a single fire boundary for each unique fire. This approach aims to provide a more comprehensive and consolidated fire dataset than any individual dataset, while reducing duplicate fire polygons and attributes.
-
-The data files were too large to upload to this repo but the following describes the files that were used for analysis and exploration:
-### Files
+The data files were too large to host on the github (as noted in the main readme)  but the following describes the files that were used for analysis and exploration:
 
 #### 1. `USGS_Wildland_Fire_Combined_Dataset.json`
 
@@ -67,40 +60,21 @@ This XML file provides additional metadata specific to the polygon fire perimete
   - **`eainfo`**: Detailed description of individual attributes and field definitions within the polygon data, explaining the purpose of each field.
   - **`distinfo`**: Distribution information, including dataset format, availability, and access instructions.
 
-# EPA AQI Data
 
-# Repository Contents
 
+## Data Cleaning Notebooks & .py Files
 ### Notebooks
 - **Subset Wildfire Data and Calculate Distances.ipynb**: Jupyter notebook that subsets wildfire data and calculates distances from Tallahassee.
-- **Retrieve AQI Readings.ipynb.ipynb**: Notebook that pulls AQI data from the EPA AQS API for Tallahassee.
-- **Fire Smoke Model.ipynb.ipynb**: Notebook that develops a predictive model for estimating future wildfire smoke impacts for Tallahassee (for the years 2025-2050).
-- **Data Visualizations.ipynb**: Notebook containing visualizations related to the wildfire analysis, including time series graphs and histograms of fire data.
-the Subset Wildfire data and Retrieve AQI readings were completed before the Fire Smoke Model and Data Visualization notebooks
 
 ### modules
 - **Geo_Calc.py**: Contains the geodetic distance calculation functions used to find fires within a specific radius of Tallahassee.
 - **Wildfire_JSON_Reader.py**: Utility script for reading GeoJSON wildfire data.
 
-### folders
-- **Provided Resources/**: Folder containing additional resources provided for the course.
-- **intermediate files/**: Folder containing the csvs that were created during the execution of the notebooks.
-- **visualizations and write up/**: Folder containing the 3 requested visualizations and written reflection.
 
-## Intermediate Files
+## created files
 
 This project produces several intermediate CSV files during the data retrieval, cleaning, and processing steps. Each file serves as a crucial input for further analysis and modeling. Below is a description of each file, its origin, and the columns it contains.
 
-### Files Produced by `Retrieve AQI Readings` Notebook
-
-1. **subset_aqi_data.csv**
-   - **Description**: A refined subset of `all_aqi_data.csv` that focuses on specific AQI values within a target date range or geographical area.
-   - **Columns**:
-     - `year`: Year of the AQI measurement.
-     - `date_local`: The local date of the AQI measurement.
-     - `site_number`: Monitoring site identifier.
-     - `latitude`, `longitude`: Location of the monitoring site.
-     - `aqi`: The AQI value for the measurement.
 
 ### Files Produced by `Subset Wildfire Data and Calculate Distances` Notebook
 
@@ -128,30 +102,5 @@ This project produces several intermediate CSV files during the data retrieval, 
      - `duration_days`: Total duration of the fire (in days).
      - `GIS_Acres`: Geographic Information System-calculated acres burned.
 
-These intermediate files provide structured data essential for further analysis, including examining air quality impacts of wildfires, calculating smoke exposure levels, and identifying trends over time.
-
-## Methodology
-
-The analysis follows several key steps:
-
-1. **Data Acquisition**: Load the Combined Wildland Fire dataset and the EPA AQS air quality data.
-2. **Data Processing**: Filter the dataset to include only fires within 650 miles of Tallahassee. Calculate geodetic distances and determine the annual smoke impact estimates.
-3. **Smoke Impact Estimation**: Estimate the annual wildfire smoke impact for each year from 1961 to 2021. The estimate considers factors such as fire size and proximity to the city.
-4. **AQI Comparison**: Compare the wildfire smoke estimates to the EPA AQI data for Tallahassee to assess the accuracy of our estimates.
-5. **Predictive Modeling**: Develop a predictive model to estimate wildfire smoke impacts for the next 25 years (2025-2050).
-6. **Visualization**: Create time series graphs and histograms to visualize the findings of the analysis.
-
-## Licensing and Use
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-The wildfire data is publicly available on [ScienceBase](https://www.sciencebase.gov/catalog/item/61aa537dd34eb622f699df81). For licensing information, please refer to the original publication page for any specific usage restrictions or licensing notes.
-
-
-
-## Acknowledgments
-
-This project was completed as part of a course assignment. Special thanks to the US Geological Survey and US EPA for providing the datasets used in this analysis. 
-
-Code in this repo developed and based off oc examples provided by Dr. David W. McDonald for use in DATA 512, a course in the UW MS Data Science degree program. Dr. McDonald's code is provided under the Creative Commons CC-BY license. Revision 1.1 - August 16, 2024.
+Code in this folder and based off oc examples provided by Dr. David W. McDonald for use in DATA 512, a course in the UW MS Data Science degree program. Dr. McDonald's code is provided under the Creative Commons CC-BY license. Revision 1.1 - August 16, 2024.
 
