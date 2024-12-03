@@ -1,0 +1,29 @@
+- **Retrieve AQI Readings.ipynb.ipynb**: Notebook that pulls AQI data from the EPA AQS API for Tallahassee.
+- **Fire Smoke Model.ipynb.ipynb**: Notebook that develops a predictive model for estimating future wildfire smoke impacts for Tallahassee (for the years 2025-2050).
+- **Data Visualizations.ipynb**: Notebook containing visualizations related to the wildfire analysis, including time series graphs and histograms of fire data.
+the Subset Wildfire data and Retrieve AQI readings were completed before the Fire Smoke Model and Data Visualization notebooks
+
+
+
+### Files Produced by `Retrieve AQI Readings` Notebook
+
+1. **subset_aqi_data.csv**
+   - **Description**: A refined subset of `all_aqi_data.csv` that focuses on specific AQI values within a target date range or geographical area.
+   - **Columns**:
+     - `year`: Year of the AQI measurement.
+     - `date_local`: The local date of the AQI measurement.
+     - `site_number`: Monitoring site identifier.
+     - `latitude`, `longitude`: Location of the monitoring site.
+     - `aqi`: The AQI value for the measurement.
+
+
+## Methodology
+
+The analysis follows several key steps:
+
+1. **Data Acquisition**: Load the Combined Wildland Fire dataset and the EPA AQS air quality data.
+2. **Data Processing**: Filter the dataset to include only fires within 650 miles of Tallahassee. Calculate geodetic distances and determine the annual smoke impact estimates.
+3. **Smoke Impact Estimation**: Estimate the annual wildfire smoke impact for each year from 1961 to 2021. The estimate considers factors such as fire size and proximity to the city.
+4. **AQI Comparison**: Compare the wildfire smoke estimates to the EPA AQI data for Tallahassee to assess the accuracy of our estimates.
+5. **Predictive Modeling**: Develop a predictive model to estimate wildfire smoke impacts for the next 25 years (2025-2050).
+6. **Visualization**: Create time series graphs and histograms to visualize the findings of the analysis.
